@@ -1,0 +1,9 @@
+---
+layout: post
+title: Январская встреча
+categories: [news]
+author: Артем Дударев
+author_url: 
+---
+
+На январской встрече обсуждали Chrome Extensions и Анализ социального графа в Твиттере.

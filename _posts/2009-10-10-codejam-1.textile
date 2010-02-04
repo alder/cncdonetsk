@@ -1,0 +1,8 @@
+---
+layout: post
+title: Первый codejam
+categories: [news]
+author: Артем Дударев
+---
+
+Первый codejam прошел 10 октября. Результат можно видеть здесь "http://ukropol.appspot.com/":http://ukropol.appspot.com/

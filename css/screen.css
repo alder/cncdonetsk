@@ -1,0 +1,45 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, blockquote {  
+    margin:0px; padding:0px; border:0px;   
+}  
+
+body {font-family: helvetica, Arial, sans-serif; font-size: 62.5%; }  
+
+.container {width: 900px; margin: 0 auto; }
+
+#title { padding-bottom: 10px; border-bottom: 1px solid #000; }
+
+#title h1 {
+    font-family: "Myriad Pro", arial, sans-serif;   
+    font-weight: normal;   
+    font-size: 3.2em;    
+    padding-top: 25px;   
+}
+
+#title a { text-decoration: none;   color: #000;  }
+
+#content{  float: left;   width: 67%;   margin-top: 28px;   font-size: 1.2em; }
+  
+#sidebar {  float: right;   padding: 25px 3%;   width: 15%;  border-left: 1px solid #000; }
+
+#sidebar ul {list-style: none; margin-left: 20px; }  
+  
+#sidebar ul li {font-size: 1.4em; padding-bottom: 7px;}  
+  
+#sidebar ul li a {text-decoration: underline;color: #525254; }
+
+h2.announcement {font-size: 2.4em; margin: 0;}  
+.announcement {margin: 10px 0 40px 0; font-size:1.6em;}  
+
+.section {margin: 10px 0 20px 0; font-size:1.2em;}  
+
+.section li span {color: #AAA; font-family: Monaco, 'Courier New', monospace; font-size: 80%;}
+ul.section li{line-height: 1.75em;}
+ul.section {list-style-type: none;}
+
+.extra {color:#ccc; text-decoration:none;}  
+
+#post h1 {font-size: 1.8em; margin-bottom:5px;}
+#post .meta {font-size: 1.2em; color:#aaa; margin-bottom:10px;}
+#post .meta a {text-decoration:none; color:#aaa;}
+
+#post p {font-size: 1.2em; }
