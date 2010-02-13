@@ -9,5 +9,14 @@ title: Люди
     <div class="section">
         <p>Участники встреч. Ссылки на их компании, проекты, блоги...</p>
     </div>
+        
+    <ul class=section>
+        {% for p in site.categories.people reversed %}
+        <li>
+        <strong>{{ p.title }}</strong><br/>
+        {{p.content}}
+        </li>
+        {% endfor %}
+    </ul>
 
 </div>

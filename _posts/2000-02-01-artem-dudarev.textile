@@ -1,0 +1,9 @@
+---
+layout: people
+title: Артем Дударев
+categories: [people]
+author: Артем Дударев
+author_url: 
+---
+
+twitter: "@dudarev":http://twitter.com/dudarev

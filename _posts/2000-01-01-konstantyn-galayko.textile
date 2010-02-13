@@ -1,0 +1,9 @@
+---
+layout: people
+title: Константин Галайко  
+categories: [people]
+author: Константин Галайко  
+author_url: 
+---
+
+twitter: "@garaiko":http://twitter.com/garaiko
