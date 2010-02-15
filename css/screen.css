@@ -29,6 +29,7 @@ body {font-family: helvetica, Arial, sans-serif; font-size: 62.5%; }
 
 h2.announcement {font-size: 2.4em; margin: 0;}  
 .announcement {margin: 10px 0 40px 0; font-size:1.6em;}  
+.announcement ul {margin-top: 20px;}
 
 .section {margin: 10px 0 20px 0; font-size:1.2em;}  
 
