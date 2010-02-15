@@ -1,0 +1,9 @@
+---
+layout: people
+title: Алекс Литовченко
+categories: [people]
+author: Алекс Литовченко
+author_url: 
+twitter: 
+blog: http://litovchenko.com/blog/
+---

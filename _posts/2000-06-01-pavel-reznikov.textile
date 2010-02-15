@@ -4,6 +4,5 @@ title: Павел Резников
 categories: [people]
 author: Павел Резников
 author_url: 
+twitter: pashka_r
 ---
-
-twitter: "@pashka_r":http://twitter.com/pashka_r

@@ -1,0 +1,9 @@
+---
+layout: people
+title: Алексанр Шишкин
+categories: [people]
+author: Алексанр Шишкин
+author_url: 
+twitter: 
+blog: http://eixin.livejournal.com/
+---

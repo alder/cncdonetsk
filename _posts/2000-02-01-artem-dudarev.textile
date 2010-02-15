@@ -4,6 +4,5 @@ title: Артем Дударев
 categories: [people]
 author: Артем Дударев
 author_url: 
+twitter: dudarev
 ---
-
-twitter: "@dudarev":http://twitter.com/dudarev

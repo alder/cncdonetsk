@@ -4,6 +4,5 @@ title: Константин Галайко
 categories: [people]
 author: Константин Галайко  
 author_url: 
+twitter: garaiko
 ---
-
-twitter: "@garaiko":http://twitter.com/garaiko
