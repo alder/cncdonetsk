@@ -1,8 +1,0 @@
----
-layout: post
-title: Февральская встреча 
-categories: [announcement]
-author: Artem Dudarev
----
-
-Февральская встреча состоится 20 февраля.
