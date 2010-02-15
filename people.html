@@ -10,13 +10,16 @@ title: Люди
         <p>Участники встреч. Ссылки на их компании, проекты, блоги...</p>
     </div>
         
-    <ul class=section>
-        {% for p in site.categories.people reversed %}
-        <li>
+    {% for p in site.categories.people reversed %}
+    <div class="section">
         <strong>{{ p.title }}</strong><br/>
-        {{p.content}}
-        </li>
-        {% endfor %}
-    </ul>
+            {% if p.twitter %}
+            <a href="{{http://twitter.com/p.twitter}}">@{{p.twitter}}</a><br/>
+            {% endif %}
+            {% if p.blog %}
+            <a href="{{p.blog}}">блог</a><br/>
+            {% endif %}
+    </div>
+    {% endfor %}
 
 </div>
