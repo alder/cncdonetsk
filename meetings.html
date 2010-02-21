@@ -10,4 +10,10 @@ title: Встречи
         <p>Для каждой встречи -- ссылки, слайды, записи, фотографии... Думать о шаблоне.</p>
     </div>
 
+    {% for p in site.categories.meeting %}
+    <div class="section">
+        <strong><a href="{{p.url}}">{{ p.title }}</strong></p>
+    </div>
+    {% endfor %}
+
 </div>
