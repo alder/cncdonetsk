@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Февральская встреча
+title: Февральская встреча: утечки памяти, веб-преферанс, Jekyll
 categories: [meeting]
 author: Артем Дударев
 author_url: 
@@ -13,6 +13,7 @@ h3. Александр Шишкин
 <iframe src="http://docs.google.com/present/embed?id=dcb7sskn_18g9pdddfb" frameborder="0" width="410" height="342"></iframe>
 
 p. "К вопросу как выходить из ступора, когда он возникает":http://lh4.ggpht.com/_I0KYicKYo7Q/S4Fsy1-P7NI/AAAAAAAAEA8/Sc9PUmMDawI/solving.jpg
+"Joel Spolsky":http://www.joelonsoftware.com/
 
 h2(next). Веб-преферанс на Python
 
@@ -32,6 +33,7 @@ p.
 
 "cnc.dn.ua":http://cnc.dn.ua
 "репозиторий с версией сайта":http://github.com/dudarev/cncdonetsk
+"сайт хостящийся на Github Pages":http://dudarev.github.com/cncdonetsk/
 "Jekyll":http://jekyllrb.com/
 "Textile":http://textile.thresholdstate.com/
 "Textile на Википедии":http://en.wikipedia.org/wiki/Textile_(markup_language)
