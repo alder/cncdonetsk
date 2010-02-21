@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Февральская встреча: утечки памяти, веб-преферанс, Jekyll
+title: "Февральская встреча: утечки памяти, веб-преферанс, Jekyll"
 categories: [meeting]
 author: Артем Дударев
 author_url: 
