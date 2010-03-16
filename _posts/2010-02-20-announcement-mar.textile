@@ -5,5 +5,5 @@ categories: [announcement]
 author: Артем Дударев 
 ---
 
-Мартовская встреча состоится 20 марта 13:00-15:00 в ""Избе-читальне":http://www.izba4i.com/".  
+Мартовская встреча состоится 20 марта 12:00-14:00 в ""Избе-читальне":http://www.izba4i.com/".  
 "Волна для обсуждений":https://wave.google.com/wave/#minimized:search,restored:wave:googlewave.com!w%252BlyXOe6VsA.

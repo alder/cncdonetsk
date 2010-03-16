@@ -1,0 +1,9 @@
+---
+layout: people
+title: Александр Анфиногенов
+categories: [people]
+author: 
+author_url: Александр Анфиногенов
+twitter: medialex
+blog: http://deen-alex.livejournal.com/
+---
