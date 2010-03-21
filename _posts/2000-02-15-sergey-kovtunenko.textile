@@ -1,0 +1,11 @@
+---
+layout: people
+title: Сергей Ковтуненко
+categories: [people]
+author: Сергей Ковтуненко
+categories: [people]
+author_url: 
+twitter: 
+site: http://www.developers.org.ua/m/n0p/
+site_name: Инфо на DOU
+---
