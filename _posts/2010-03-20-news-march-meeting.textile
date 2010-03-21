@@ -1,0 +1,9 @@
+---
+layout: post
+title: Мартовская встреча
+categories: [news]
+author: Артем Дударев
+author_url: 
+---
+
+Говорили о различных лайфхаках. Ссылки имеющие отношение ко встрече можно найти на "ее странице":/meeting/march-meeting.html.
