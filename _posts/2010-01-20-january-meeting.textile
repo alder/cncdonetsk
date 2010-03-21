@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Январская встреча: Google Chrome, донецкий Twitter"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Расширения для Google Chrome
+
+h3. Константин Галайко
+
+p. "Архив со слайдами презентации":http://dl.dropbox.com/u/1169634/GalaykoChromeExtensionCreate.zip
+"Tutorial: Getting Started (Hello, World!)":http://code.google.com/chrome/extensions/getstarted.html
+"Создание расширения для Google Chrome":http://habrahabr.ru/blogs/google_chrome/75639 - пост на Хабре
+
+h2(next). Анализ донецкого Твиттера
+
+h3. Артем Дударев
+
+<div style="width:425px" id="__ss_3493632">
+<object width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=donetsktwitter-100321073446-phpapp01&rel=0&stripped_title=donetsk-twitter" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=donetsktwitter-100321073446-phpapp01&rel=0&stripped_title=donetsk-twitter" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object>
+</div>
+
+p. "Заметка на Хабре":http://habrahabr.ru/blogs/twitter/81225/
+"Использовавшийся код":http://github.com/dudarev/datavis/tree/master/004_twitter_graph
