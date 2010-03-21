@@ -1,4 +1,4 @@
 auto: true
 pygments: true
 markdown: rdiscount
-permalink: post-:year-:month-:day-:categories-:title.html
+permalink: none
