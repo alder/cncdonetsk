@@ -19,6 +19,9 @@ title: Люди
             {% if p.blog %}
             <a href="{{p.blog}}">блог</a><br/>
             {% endif %}
+            {% if p.site %}
+            <a href="{{p.site}}">{{p.site_name}}</a><br/>
+            {% endif %}
     </div>
     {% endfor %}
 
