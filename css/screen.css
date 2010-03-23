@@ -43,8 +43,8 @@ ul.section {list-style-type: none;}
 #post .meta {font-size: 1.2em; color:#aaa; margin-bottom:10px;}
 #post .meta a {text-decoration:none; color:#aaa;}
 #post p {font-size: 1.2em; margin-bottom:10px;}
-#post h3 {margin-bottom:15px;}
-#post h2 {padding-top:5px;}
+#post h3 {margin-bottom:15px; font-weight: normal;}
+#post h2 {padding-top:5px; font-weight: normal;}
 #post h2.next {padding-top:20px;}
 
 #disqus_thread { margin-top: 50px }
