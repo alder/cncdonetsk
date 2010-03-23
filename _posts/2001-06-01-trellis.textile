@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Трельях - клуб интеллектуальных игр
+title: Трельяж - клуб интеллектуальных игр
 categories: [projects]
 author: Алекс Литовченко
 author_url: 
