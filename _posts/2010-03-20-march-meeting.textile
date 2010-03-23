@@ -17,5 +17,7 @@ h2(next). Применение технологии MindMap к построен�
 
 h3. Сергей Ковтуненко
 
-p. "Free Mind":http://freemind.sourceforge.net/wiki/index.php/Main_Page
-"50 ссылок на различный софт":http://www.associatesdegree.com/2009/07/27/50-useful-mind-mapping-tools-for-college-students/
+p. "Free Mind":http://freemind.sourceforge.net/wiki/index.php/Main_Page - открытая программа для mindmaps на Java
+"50 ссылок на различный софт":http://www.associatesdegree.com/2009/07/27/50-useful-mind-mapping-tools-for-college-students/ - в уклоном на образование
+"Python MindMap":http://freemind.sourceforge.net/wiki/extensions/freemind/flashwindow.php?startCollapsedToLevel=4&initLoadFile=/wiki/images/1/1a/Python_WebLinks.mm&mm_title=Python%202.5%20Computer%20Language%20-%20Contents - сделано при помощи FreeMind
+"Галерея других справочных материлов":http://freemind.sourceforge.net/wiki/index.php/Mind_Map_Gallery - тоже при помощи FreeMind
