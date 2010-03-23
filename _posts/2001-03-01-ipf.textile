@@ -1,0 +1,8 @@
+---
+layout: project
+title: IPF PHP Framework
+categories: [projects]
+author: Алекс Литовченко
+author_url: 
+site: http://ipf.icmconsulting.com/
+---

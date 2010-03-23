@@ -7,7 +7,27 @@ title: Проекты
 
     <h2>Проекты</h2>
     <div class="section">
-        <p>Проекты, обсуждаемые на встречах.</p>
+        <p>обсуждавшиеся на встречах</p>
     </div>
 
+    {% for p in site.categories.projects reversed %}
+    <div class="section">
+        <strong>{{ p.title }}</strong><br/>
+            {% if p.site %}
+            <a href="{{p.site}}">{{p.site}}</a><br/>
+            {{p.content}}
+            {% endif %}
+    </div>
+    {% endfor %}
+
 </div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://cnc-dn.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=cnc-dn">comments powered by Disqus.</a></noscript>

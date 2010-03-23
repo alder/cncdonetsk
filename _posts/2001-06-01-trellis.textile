@@ -1,0 +1,8 @@
+---
+layout: project
+title: Трельях - клуб интеллектуальных игр
+categories: [projects]
+author: Алекс Литовченко
+author_url: 
+site: http://trellis-club.com/
+---
