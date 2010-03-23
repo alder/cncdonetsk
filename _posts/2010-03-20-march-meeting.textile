@@ -21,3 +21,21 @@ p. "Free Mind":http://freemind.sourceforge.net/wiki/index.php/Main_Page - отк
 "50 ссылок на различный софт":http://www.associatesdegree.com/2009/07/27/50-useful-mind-mapping-tools-for-college-students/ - в уклоном на образование
 "Python MindMap":http://freemind.sourceforge.net/wiki/extensions/freemind/flashwindow.php?startCollapsedToLevel=4&initLoadFile=/wiki/images/1/1a/Python_WebLinks.mm&mm_title=Python%202.5%20Computer%20Language%20-%20Contents - сделано при помощи FreeMind
 "Галерея других справочных материлов":http://freemind.sourceforge.net/wiki/index.php/Mind_Map_Gallery - тоже при помощи FreeMind
+
+h2(next). Фотографии
+
+<notextile>
+<table style="width:194px;">
+<tr>
+<td align="center" style="height:194px;background:url(http://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left">
+<a href="http://picasaweb.google.com/negrienko/NC?feat=embedwebsite">
+<img src="http://lh4.ggpht.com/_ROIA-dKLM0I/S6dGTX6kojE/AAAAAAAAAs0/c9jRLGX0Sws/s144-c/NC.jpg" width="160" height="160" style="margin:1px 0 0 4px;">
+</a>
+</td>
+</tr>
+<tr><td style="text-align:center;font-family:arial,sans-serif;font-size:11px">
+<a href="http://picasaweb.google.com/negrienko/NC?feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;">фотографии Данила Негриенко</a>
+</td>
+</tr>
+</table>
+</notextile>
