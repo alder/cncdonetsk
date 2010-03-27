@@ -47,11 +47,11 @@ p((. b. Расстановка приоритеов
 p(((. i. Матрица Ейзенхауера
 
 <notextile>
-<div style="padding-left:3em;margin-bottom:10px;"
+<div style="padding-left:5em;margin-bottom:10px;"
 <table border="1px" frame="border" rules="all" cellpadding="5px">
 	<tr> 
 		<td border="1"> Важное  Срочное </td> 
-		<td border="1"> Важное Несрочное </td> 
+		<td border="1"> <strong>Важное Несрочное</strong> </td> 
 	</tr> 
 	<tr> 
 		<td border="1"> Неважное  Срочное </td> 
@@ -62,11 +62,11 @@ p(((. i. Матрица Ейзенхауера
 </notextile>
 
 p(((. ii. Стив Павлина
-Метод повторного чтения
+&nbsp;&nbsp;&nbsp;&nbsp;Метод повторного чтения
 iii. Стив Кови
-Декларация  миссии предназначения
+&nbsp;&nbsp;&nbsp;&nbsp;Декларация  миссии предназначения
 iv. Брайн Трейси и др.
-Метод некролога 
+&nbsp;&nbsp;&nbsp;&nbsp;Метод некролога 
 
 p((. c. Планирование
 
@@ -93,14 +93,20 @@ p. На Википедии:
 "GTD (Getting Things Done)":http://ru.wikipedia.org/wiki/Getting_Things_Done - популярная система ведения дел
 ""7 привычек высокоэффективных людей":http://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BC%D1%8C_%D0%BD%D0%B0%D0%B2%D1%8B%D0%BA%D0%BE%D0%B2_%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85_%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9" - классическая книга Стивена Кови
 
+-----
+
 h2(next). Применение технологии MindMap к построению информационной модели предметной области на примере языковых возможностей JavaSE6 
 
 h3. Сергей Ковтуненко
+
+<iframe src="http://docs.google.com/present/embed?id=0AdLGz0561H_HZGN0ZGJ2aDRfNjFkZzIzYnhoZw" frameborder="0" width="410" height="342"></iframe>
 
 p. "Free Mind":http://freemind.sourceforge.net/wiki/index.php/Main_Page - открытая программа для mindmaps на Java
 "50 ссылок на различный софт":http://www.associatesdegree.com/2009/07/27/50-useful-mind-mapping-tools-for-college-students/ - в уклоном на образование
 "Python MindMap":http://freemind.sourceforge.net/wiki/extensions/freemind/flashwindow.php?startCollapsedToLevel=4&initLoadFile=/wiki/images/1/1a/Python_WebLinks.mm&mm_title=Python%202.5%20Computer%20Language%20-%20Contents - сделано при помощи FreeMind
 "Галерея других справочных материлов":http://freemind.sourceforge.net/wiki/index.php/Mind_Map_Gallery - тоже при помощи FreeMind
+
+-----
 
 h2(next). Фотографии
 
@@ -119,3 +125,5 @@ h2(next). Фотографии
 </tr>
 </table>
 </notextile>
+
+-----

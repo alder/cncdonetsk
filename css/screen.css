@@ -48,3 +48,11 @@ ul.section {list-style-type: none;}
 #post h2.next {padding-top:20px;}
 
 #disqus_thread { margin-top: 50px }
+
+hr {
+    border: 0;
+    height: 1px;
+    color: #999999;
+    background-color: #999999;
+    margin-top: 20px;
+}
