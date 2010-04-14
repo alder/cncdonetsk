@@ -1,0 +1,19 @@
+---
+layout: default
+title: работа для программистов в Донецке 
+---
+
+<div id="home">
+
+    <h2>Вакансии в Донецке для разработчиков, веб-дизайнеров...</h2>
+    <div class="section">
+        <p>Здесь размещаются вакансии от докладчиков выступавших на кофе-и-коде</p>
+    </div>
+        
+    {% for p in site.categories.vacancy %}
+    <div class="section">
+        <span>{{ p.date | date: "%Y-%m-%d" }}  &raquo; {{p.author}}:</span> <a href="{{ p.url }}">{{ p.title }}</a></li>
+    </div>
+    {% endfor %}
+
+</div>

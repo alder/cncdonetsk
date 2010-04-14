@@ -1,0 +1,9 @@
+---
+layout: post
+title: Нужен толковый верстальщик (HTML, CSS...)
+categories: [vacancy]
+author: Александр Литовченко
+author_url: 
+---
+
+"Обращайтесь":http://litovchenko.com/blog/

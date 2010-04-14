@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Дизайнер"
+categories: [vacancy]
+author: Данил Негриенко
+author_url: 
+---
+
+"Институт Цифровых Технологий":http://www.idt.com.ua/ ищет дизайнера.
