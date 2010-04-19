@@ -1,0 +1,8 @@
+---
+layout: project
+title: Mahjong puzzle for PocketBook
+categories: [projects]
+author: Андрей Кутейко
+author_url: 
+site: http://github.com/andy128k/pb-mahjong/
+---
