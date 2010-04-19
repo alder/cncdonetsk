@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Апрельская встреча: веб-типографика, электронные книги PocketBook"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Веб-типографика
+
+h3. Дмитрий Подгорный
+
+_Ссылки_:
+
+p. 
+"Типограф":http://www.typograf.ru/
+"Типограф от Лебедева":http://www.artlebedev.ru/tools/typograf/
+"О типографии на английском":http://en.wikipedia.org/wiki/Typography
+"О вертикальном ритме (англ.)":http://www.alistapart.com/articles/settingtypeontheweb
+
+-----
+
+h2(next). PocketBook
+
+h3. Андрей Кутейко и Дмитрий (?)
+
+p. "Корреспондент: Украинские электронные книги завоевали пятую часть мирового рынка":http://korrespondent.net/tech/technews/1067542
