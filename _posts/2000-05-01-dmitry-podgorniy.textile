@@ -1,0 +1,8 @@
+---
+layout: people
+title: Дмитрий Подгорный
+categories: [people]
+author: Дмитрий Подгорный
+author_url: 
+twitter: podgorniy
+---

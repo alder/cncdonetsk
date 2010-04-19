@@ -1,0 +1,11 @@
+---
+layout: people
+title: Андрей Кутейко 
+categories: [people]
+author: Андрей Кутейко 
+categories: [people]
+author_url: 
+twitter: 
+site: http://www.google.com/profiles/andy128k
+site_name: Google профиль
+---
