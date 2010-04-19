@@ -22,6 +22,9 @@ p.
 
 h2(next). PocketBook
 
-h3. Андрей Кутейко и Дмитрий (?)
+h3. Андрей Кутейко и Дмитрий Стропалов
 
 p. "Корреспондент: Украинские электронные книги завоевали пятую часть мирового рынка":http://korrespondent.net/tech/technews/1067542
+"Форум конкурса":http://www.the-ebook.org/forum/viewtopic.php?t=12505
+"Сайт производителя":http://pocketbook.com.ua/
+"Сайт опенсорсной активности производителя":http://pocketbook-free.sourceforge.net/
