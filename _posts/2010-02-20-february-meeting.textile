@@ -15,6 +15,8 @@ h3. Александр Шишкин
 p. "К вопросу как выходить из ступора, когда он возникает":http://lh4.ggpht.com/_I0KYicKYo7Q/S4Fsy1-P7NI/AAAAAAAAEA8/Sc9PUmMDawI/solving.jpg
 "Joel Spolsky":http://www.joelonsoftware.com/
 
+-----
+
 h2(next). Веб-преферанс на Python
 
 h3. Александр Литовченко
@@ -22,6 +24,8 @@ h3. Александр Литовченко
 p. "Работающий сервер":http://trellis-club.com/
 "Код и багтрекер":http://trac.trellis-club.com/
 "Обсуждение на Хабре":http://habrahabr.ru/blogs/i_am_advertising/84439/
+
+-----
 
 h2(next). Пара слов о Jekyll
 

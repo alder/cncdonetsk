@@ -17,9 +17,9 @@ body {font-family: helvetica, Arial, sans-serif; font-size: 62.5%; }
 
 #title a { text-decoration: none;   color: #000;  }
 
-#content{  float: left;   width: 67%;   margin-top: 28px;   font-size: 1.2em; }
+#content{  float: left;   width: 67%;   margin-top: 0;   font-size: 1.4em; }
   
-#sidebar {  float: right;   padding: 25px 3%;   width: 15%;  border-left: 1px solid #000; }
+#sidebar {  float: right;   padding: 2em 3%;   width: 15%;  border-left: 1px solid #000; }
 
 #sidebar ul {list-style: none; margin-left: 20px; }  
   
@@ -27,11 +27,14 @@ body {font-family: helvetica, Arial, sans-serif; font-size: 62.5%; }
   
 #sidebar ul li a {text-decoration: underline;color: #525254; }
 
-h2.announcement {font-size: 2.4em; margin: 0;}  
-.announcement {margin: 10px 0 40px 0; font-size:1.6em;}  
+h2.announcement {font-size: 2.4em; margin: 1em 0 0 0;}  
+.announcement {margin: 10px 0 40px 0; font-size:1.2em;}  
 .announcement ul {margin-top: 20px;}
 
-.section {margin: 10px 0 20px 0; font-size:1.2em;}  
+h2 {margin-top: 1em; margin-bottom:0.5em;}
+h3 {margin-top: 1em; margin-bottom:0.5em;}
+
+.section {margin: 10px 0 20px 0; }  
 
 .section li span {color: #AAA; font-family: Monaco, 'Courier New', monospace; font-size: 80%;}
 ul.section li{line-height: 1.75em;}
@@ -39,13 +42,12 @@ ul.section {list-style-type: none;}
 
 .extra {color:#ccc; text-decoration:none;}  
 
-#post h1 {font-size: 1.8em; margin-bottom:5px;}
-#post .meta {font-size: 1.2em; color:#aaa; margin-bottom:10px;}
+#post h1 {font-size: 1.6em; margin-bottom:0.5em; margin-top:1em;}
+#post .meta {font-size: 1em; color:#aaa; margin-bottom:10px;}
 #post .meta a {text-decoration:none; color:#aaa;}
-#post p {font-size: 1.2em; margin-bottom:10px;}
-#post h3 {margin-bottom:15px; font-weight: normal;}
-#post h2 {padding-top:5px; font-weight: normal;}
-#post h2.next {padding-top:20px;}
+#post p {margin-bottom:1em;}
+#post h3 {font-weight: normal;font-size:1.2em;}
+#post h2 {font-weight: normal;font-size:1.4em;}
 
 #disqus_thread { margin-top: 50px }
 
@@ -56,3 +58,6 @@ hr {
     background-color: #999999;
     margin-top: 20px;
 }
+
+#help ul {margin-left: 1em; }  
+#future p{margin-top: 1.2em;}

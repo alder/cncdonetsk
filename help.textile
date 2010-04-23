@@ -1,0 +1,58 @@
+---
+layout: default
+title: В помощь организаторам
+---
+
+<div id="help">
+
+h2. Памятка
+
+* определиться с выступающими
+* за неделю уточнить то, что докладчиков есть возможность 
+* объявить в
+** группе
+** календаре ДОУ
+** обновить анонс на этом сайте
+** и др.
+* за неделю-две уточнить в месте прохождения, что это возможно
+* по прошествии встречи обновить страницу встречи
+
+</div>
+
+<div id="future">
+
+h2. Возможные будущие темы
+
+h3. Разработка для Android
+
+когда-нибудь летом
+
+Донецкие андроидоводы:
+
+"Romeo Ordos":www.google.com/profiles/romeo.ordos делился своим опытом разработки "на Хабре":http://habrahabr.ru/blogs/android/91480/.
+
+Александр Мальцев организовывает сообщество ""Андроид в Украине":http://www.androids.com.ua/" ("@ukr_android":http://twitter.com/ukr_android). Помогали ему с кармой на Хабре, но его там забанили.
+
+Артем Дударев расскажет о "PhoneGap":http://www.phonegap.com/.
+
+h3. Донецкие дизайнеры
+
+Валерия Маллаева ("@lerika":http://twitter.com/lerika) соглашалась выступать, но после московского "Flash GAMM":http://www.flashgamm.com/ (13 мая).
+
+"Алексея Попова":http://www.alexey-popov.com/ было бы интересно послушать. Кто-то лично знаком?
+
+h3. Agile, scrum и т.п.
+
+...
+
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://cnc-dn.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=cnc-dn">comments powered by Disqus.</a></noscript>
