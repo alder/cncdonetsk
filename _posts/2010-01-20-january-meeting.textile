@@ -14,6 +14,8 @@ p. "Архив со слайдами презентации":http://dl.dropbox.c
 "Tutorial: Getting Started (Hello, World!)":http://code.google.com/chrome/extensions/getstarted.html
 "Создание расширения для Google Chrome":http://habrahabr.ru/blogs/google_chrome/75639 - пост на Хабре
 
+-----
+
 h2(next). Анализ донецкого Твиттера
 
 h3. Артем Дударев

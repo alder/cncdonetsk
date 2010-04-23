@@ -46,8 +46,8 @@ ul.section {list-style-type: none;}
 #post .meta {font-size: 1em; color:#aaa; margin-bottom:10px;}
 #post .meta a {text-decoration:none; color:#aaa;}
 #post p {margin-bottom:1em;}
-#post h3 {font-weight: normal;font-size:1.2em;}
-#post h2 {font-weight: normal;font-size:1.4em;}
+#post h3 {margin-top:0em; margin-bottom:1em; font-weight: normal;font-size:1.2em;}
+#post h2 {margin-bottom: 0em; font-weight: normal;font-size:1.4em;}
 
 #disqus_thread { margin-top: 50px }
 
@@ -55,9 +55,10 @@ hr {
     border: 0;
     height: 1px;
     color: #999999;
-    background-color: #999999;
-    margin-top: 20px;
+    background-color: #000;
+    margin-top: 2em;
 }
 
 #help ul {margin-left: 1em; }  
 #future p{margin-top: 1.2em;}
+
