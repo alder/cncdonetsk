@@ -10,12 +10,26 @@ h2. Веб-типографика
 
 h3. Дмитрий Подгорный
 
+<iframe src="http://docs.google.com/present/embed?id=dcpnch5x_104gwncstdc" frameborder="0" width="410" height="342"></iframe>
+
 _Ссылки_:
 
 p. 
 "Типограф":http://www.typograf.ru/
 "Типограф от Лебедева":http://www.artlebedev.ru/tools/typograf/
+"Расстановка переносов":http://www.plazoo.com/ru/tools.asp
+"Типографская расскладка":http://ilyabirman.ru/typography-layout/
+
+"Рецепты хорошей типографики":http://habrahabr.ru/blogs/typography/57351/
+"Экранная типографика":http://www.artlebedev.ru/kovodstvo/sections/62/
+
+"Конвертер ttf шрифтов в eot":http://www.kirsle.net/wizards/ttf2eot.cgi
+"Ненавязчивая сетка (JS)":http://hashgrid.com/
+"Конвертер px в em и наоборот":http://pxtoem.com/
+"Расстановка мягких переносов":http://www.plazoo.com/ru/tools.asp
+
 "О типографии на английском":http://en.wikipedia.org/wiki/Typography
+"Tipogrify for Django templates":http://code.google.com/p/typogrify/
 "О вертикальном ритме (англ.)":http://www.alistapart.com/articles/settingtypeontheweb
 
 -----
