@@ -10,7 +10,7 @@ h2. Веб-типографика
 
 h3. Дмитрий Подгорный
 
-<iframe src="http://docs.google.com/present/embed?id=dcpnch5x_104gwncstdc" frameborder="0" width="410" height="342"></iframe>
+<iframe src="http://docs.google.com/present/embed?id=dc75mmzh_61s37gpchc" frameborder="0" width="410" height="342"></iframe>
 
 _Ссылки_:
 
