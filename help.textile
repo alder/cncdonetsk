@@ -15,11 +15,15 @@ h2. Памятка
 ** обновить анонс на этом сайте
 ** и др.
 * за неделю-две уточнить в месте прохождения, что это возможно
+* уточнить за пару дней у докладчиков нужен ли проектро
+** если нужен - узнать в группе, кто его сможет обеспечить
 * по прошествии встречи обновить страницу встречи
 
 </div>
 
 <div id="future">
+
+-----
 
 h2. Возможные будущие темы
 
@@ -44,6 +48,89 @@ h3. Донецкие дизайнеры
 h3. Agile, scrum и т.п.
 
 ...
+
+-----
+
+h2. Как использовать Jekyll
+
+Чтобы установить jekyll:
+
+{% highlight console %}
+gem install jekyll
+{% endhighlight %}
+
+Просим у Павла Резникова доступ к репозиторию. Получаем файлы
+
+{% highlight console %}
+git clone git://github.com/troolee/cncdonetsk.git
+{% endhighlight %}
+
+генерим страницы:
+
+{% highlight console%}
+cd cncdonetsk
+jekyll
+{% endhighlight %}
+
+все необходимые файлы складываются в
+
+{% highlight console %}
+cncdonetsk/_site/
+{% endhighlight %}
+
+Можно
+
+{% highlight console %}
+jekyll --server
+{% endhighlight %}
+
+и тогда смотреть автоматически подхватываемые обновления на "http://0.0.0.0:4000/":http://0.0.0.0:4000/
+
+Публиковать через
+
+{% highlight console %}
+git push
+{% endhighlight %}
+
+-----
+
+h2. Структура файлов
+
+Чтобы начать новую новость, страницу встречи, информацию о человеке, проще всего скопировать имеющийся файл и изменить его, где требуется. Вся информация организуется в виде постов, которые находятся в директории <code>_posts/</code>
+
+h3. Люди
+
+{% highlight console %}
+2000-mm-dd-name-last_name.textile
+{% endhighlight %}
+
+Таким образом чтобы шли по алфавиту.
+
+h3. Проекты
+
+{% highlight console %}
+2001-mm-dd-title-describing-project.textile
+{% endhighlight %}
+
+Таким образом чтобы шли по алфавиту.
+
+h3. Встречи и новости
+
+{% highlight console %}
+yyyy-mm-dd-title-describing-news-or-event.textile
+{% endhighlight %}
+
+Дата новости или когда проходила встреча.
+
+h3. Анонс
+
+Двигать файл в котором встречается слово <code>announcement</code> при помощи 
+
+{% highlight console %}
+git mv src dest
+{% endhighlight %}
+
+чтобы анонс оставался только один.
 
 </div>
 
