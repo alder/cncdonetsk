@@ -7,15 +7,15 @@ title: В помощь организаторам
 
 h2. Памятка
 
-* определиться с выступающими
+* определиться с выступающими и темами
 * за неделю уточнить то, что докладчиков есть возможность 
 * объявить в
-** группе
-** календаре ДОУ
+** "группе":http://groups.google.com/group/cnc-donetsk/post
+** "календаре ДОУ":http://www.developers.org.ua/calendar/add/
 ** обновить анонс на этом сайте
-** и др.
+** и др. (ЖЖ, Хабр, твиттер...)
 * за неделю-две уточнить в месте прохождения, что это возможно
-* уточнить за пару дней у докладчиков нужен ли проектро
+* уточнить за пару дней у докладчиков нужен ли проектор
 ** если нужен - узнать в группе, кто его сможет обеспечить
 * по прошествии встречи обновить страницу встречи
 
@@ -33,7 +33,7 @@ h3. Разработка для Android
 
 Донецкие андроидоводы:
 
-"Romeo Ordos":www.google.com/profiles/romeo.ordos делился своим опытом разработки "на Хабре":http://habrahabr.ru/blogs/android/91480/.
+"Romeo Ordos":http://www.google.com/profiles/romeo.ordos делился своим опытом разработки "на Хабре":http://habrahabr.ru/blogs/android/91480/.
 
 Александр Мальцев организовывает сообщество ""Андроид в Украине":http://www.androids.com.ua/" ("@ukr_android":http://twitter.com/ukr_android). Помогали ему с кармой на Хабре, но его там забанили.
 
@@ -55,42 +55,30 @@ h2. Как использовать Jekyll
 
 Чтобы установить jekyll:
 
-{% highlight console %}
-gem install jekyll
-{% endhighlight %}
+bc. gem install jekyll
 
 Просим у Павла Резникова доступ к репозиторию. Получаем файлы
 
-{% highlight console %}
-git clone git://github.com/troolee/cncdonetsk.git
-{% endhighlight %}
+bc. git clone git://github.com/troolee/cncdonetsk.git
 
 генерим страницы:
 
-{% highlight console%}
-cd cncdonetsk
+bc. cd cncdonetsk
 jekyll
-{% endhighlight %}
 
 все необходимые файлы складываются в
 
-{% highlight console %}
-cncdonetsk/_site/
-{% endhighlight %}
+bc. cncdonetsk/_site/
 
 Можно
 
-{% highlight console %}
-jekyll --server
-{% endhighlight %}
+bc. jekyll --server
 
 и тогда смотреть автоматически подхватываемые обновления на "http://0.0.0.0:4000/":http://0.0.0.0:4000/
 
 Публиковать через
 
-{% highlight console %}
-git push
-{% endhighlight %}
+bc. git push
 
 -----
 
@@ -100,25 +88,19 @@ h2. Структура файлов
 
 h3. Люди
 
-{% highlight console %}
-2000-mm-dd-name-last_name.textile
-{% endhighlight %}
+bc. 2000-mm-dd-name-last_name.textile
 
 Таким образом чтобы шли по алфавиту.
 
 h3. Проекты
 
-{% highlight console %}
-2001-mm-dd-title-describing-project.textile
-{% endhighlight %}
+bc. 2001-mm-dd-title-describing-project.textile
 
 Таким образом чтобы шли по алфавиту.
 
 h3. Встречи и новости
 
-{% highlight console %}
-yyyy-mm-dd-title-describing-news-or-event.textile
-{% endhighlight %}
+bc. yyyy-mm-dd-title-describing-news-or-event.textile
 
 Дата новости или когда проходила встреча.
 
@@ -126,9 +108,7 @@ h3. Анонс
 
 Двигать файл в котором встречается слово <code>announcement</code> при помощи 
 
-{% highlight console %}
-git mv src dest
-{% endhighlight %}
+bc. git mv src dest
 
 чтобы анонс оставался только один.
 

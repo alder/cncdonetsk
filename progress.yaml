@@ -1,6 +1,15 @@
 ---
 step:
+    title: remove pygmentize from help
+    done: true
+---
+step:
+    title: news about help page
+---
+step:
     title: copy description how to edit from an old email
+    done: true
 ---
 task:
     title: add description about editing
+    done: true
