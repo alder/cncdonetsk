@@ -5,4 +5,6 @@ categories: [people]
 author: Павел Резников
 author_url: 
 twitter: pashka_r
+site: http://www.google.com/profiles/pashka.reznikov
+site_name: Google профиль
 ---
