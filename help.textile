@@ -51,7 +51,7 @@ h3. Agile, scrum и т.п.
 
 -----
 
-h2. Как использовать Jekyll
+h2(#jekyll-how-to). Как использовать Jekyll
 
 Чтобы установить jekyll:
 
