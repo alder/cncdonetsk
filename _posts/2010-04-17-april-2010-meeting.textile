@@ -32,6 +32,8 @@ p.
 "Tipogrify for Django templates":http://code.google.com/p/typogrify/
 "О вертикальном ритме (англ.)":http://www.alistapart.com/articles/settingtypeontheweb
 
+"Количественный анализ используемых шрифтом от Smashing Magazine":http://spreadsheets.google.com/ccc?key=0AsK4MoYiBVMldE12V3FJYk95YVRUZ18xNDJNOVRrSHc&hl=ru
+
 -----
 
 h2(next). PocketBook
