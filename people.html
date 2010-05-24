@@ -25,4 +25,40 @@ title: Люди
     </div>
     {% endfor %}
 
+    <h2>В твиттере</h2>
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'list',
+  rpp: 30,
+  interval: 6000,
+  title: '#cncdnua',
+  subject: 'люди посещавшие донецкий кофе-и-код',
+  width: 500,
+  height: 500,
+  theme: {
+    shell: {
+      background: '#969fff',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#5b3fa6'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setList('dudarev', 'cnc-donetsk').start();
+</script>
+
 </div>
