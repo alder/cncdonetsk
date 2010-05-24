@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Майская встреча: генераторы статических сайтов, интернет-магазины"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Генераторы статических сайтов
+
+h3. Константин Галайко и Артем Дударев
+
+p. 
+"rst2web":http://www.voidspace.org.uk/python/rest2web/
+
+"Обзорная заметка на Хабре":http://habrahabr.ru/blogs/webdev/93499/
+
+"Хорошее обсуждение на StackOverflow":http://stackoverflow.com/questions/186290/best-static-website-generator
+
+"Jekyll":http://jekyllrb.com/
+"Hyde":http://ringce.com/hyde
+"Poole":http://bitbucket.org/obensonne/poole
+"StaPy":http://github.com/dudarev/StaPy
+
+-----
+
+h2(next). Интернет-магазины
+
+h3. Алексей и Андрей Кутейко
+
+p. "Карапузя":http://karapuzya.com.ua
+"Создание дисконтной системы интернет-магазина":http://habrahabr.ru/blogs/my_business/88067/ - статья на Хабре
+
+"http://sling.dn.ua/":http://sling.dn.ua/
+
+"Донецкий детский форум":http://kroha.dn.ua/
+
+-----
+
+h3(next). Еще обсуждали
+
+p. 
+
+"LiqPay":http://liqpay.com/

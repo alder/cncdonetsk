@@ -1,0 +1,9 @@
+---
+layout: post
+title: Майская встреча 
+categories: [news]
+author: Артем Дударев
+author_url: 
+---
+
+Прошла майская встреча. Говорили о генераторах статических сайтов и интернет-магазинах. Ссылки по теме - на "ее странице":/meeting/may-2010-meeting-static-internet-shop.html.
