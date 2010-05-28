@@ -1,0 +1,8 @@
+---
+layout: project
+title: Счастливый малыш - донецкий интернет-магазин
+categories: [projects]
+author: Андрей Кутейко
+author_url: 
+site: http://sling.dn.ua
+---

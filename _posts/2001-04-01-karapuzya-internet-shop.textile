@@ -1,0 +1,8 @@
+---
+layout: project
+title: Карапузя - киевский интернет-магазин детских товаров
+categories: [projects]
+author: Алексей Рытов
+author_url: 
+site: http://karapuzya.com.ua
+---

@@ -1,0 +1,8 @@
+---
+layout: people
+title: Алексей Рытов
+categories: [people]
+author: Алексей Рытов
+author_url: 
+twitter: nickolaich 
+---
