@@ -1,9 +1,0 @@
----
-layout: post
-title: "Разыскивается опытный ASP .Net разработчик"
-categories: [vacancy]
-author: Александр Шишкин
-author_url: 
----
-
-"Детали":http://groups.google.com/group/cnc-donetsk/browse_thread/thread/357c93c96b6bfdee
