@@ -6,7 +6,13 @@ author: Артем Дударев
 author_url: 
 ---
 
-Встреча состоится 19 июня.
+h2. Тестирование ПО
+
+h3. Павел Резников
+
+<iframe src="http://docs.google.com/present/embed?id=0AUp5CKEY3yB0ZGNwbmNoNXhfMTExZzY3bnhnZjY" frameborder="0" width="410" height="342"></iframe>
+
+-----
 
 h2. Волна обсуждений
 
