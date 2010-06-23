@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Июньская встреча: Flash GAMM, тестирование, Ruby"
+title: "Июньская встреча: тестирование ПО; Ruby"
 categories: [meeting]
 author: Артем Дударев
 author_url: 
