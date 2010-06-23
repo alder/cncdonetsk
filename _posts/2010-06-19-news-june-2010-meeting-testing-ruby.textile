@@ -1,0 +1,9 @@
+---
+layout: post
+title: Июньская встреча
+categories: [news]
+author: Артем Дударев
+author_url: 
+---
+
+Прошла июньская встреча. Говорили о тестировании ПО и Ruby. Смотрите "стрницу встречи":/meeting/june-2010-meeting-flash-gamm-testing-ruby.html.
