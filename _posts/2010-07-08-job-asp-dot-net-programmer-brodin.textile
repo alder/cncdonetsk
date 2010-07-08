@@ -1,0 +1,13 @@
+---
+layout: post
+title: "ASP.NET разработчик"
+categories: [vacancy]
+author: Макс Бродин
+author_url: 
+---
+
+Требуется разработчик ASP.NET — C# + MS SQL (Postgre), Telerik controls, jQuery (опыт коммерческой разработки от 2 лет) Компания - Proxistep. Полный рабочий день в офисе. Зарплата — 1500$ - 1800$, в зависимости от квалификации. Оплачиваемый отпуск 18 рабочих дней. Овертаймы огавариваются и оплачиваются отдельно.  
+
+Компания французская "http://www.proxistep.com/":http://www.proxistep.com/ основной офис в Париже, есть филиал в Днепропетровске (~ 20 человек), в Донецке пока что 3 человека (2 PHP + 1 ASP.Net) а еще ищем Iphone разработчика :) На рынке с 2001 года, из больших клиентов такие как "http://www.dmsfrance.com/":http://www.dmsfrance.com/ "http://www.coyotesystems.co.uk/index.php":http://www.coyotesystems.co.uk/index.php
+
+Резюме направлят на brodin.max@gmail.com
