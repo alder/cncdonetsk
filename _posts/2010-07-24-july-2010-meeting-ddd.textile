@@ -1,10 +1,26 @@
 ---
 layout: post
-title: "Июльская встреча"
+title: "Июльская встреча: взаимодействие программиста и аниматора; DDD"
 categories: [meeting]
 author: Артем Дударев
 author_url: 
 ---
+
+h2. О взаимодействии программиста и аниматора при создании flash-игр  
+
+h3. Валерия "Lerika" Маллаева  
+
+notextile. <embed src="/2010-07-25-lerika-doclad.swf" quality="high" bgcolor="#ffffff" width="550" height="400" name="" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+
+-----
+
+h2(next). Domain Driven Design: борьба с растущей сложностью бизнес приложений. Опыт миграции с трехзвенной архитектуры на DDD.
+
+h3. Александр Шишкин, Павел Митин 
+
+<iframe src="http://docs.google.com/present/embed?id=dcb7sskn_34dwgfqjf9" frameborder="0" width="410" height="342"></iframe>
+
+-----
 
 h2. Волна обсуждений
 
