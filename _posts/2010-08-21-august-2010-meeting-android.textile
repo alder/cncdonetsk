@@ -17,6 +17,8 @@ p. 0. Коллективный доклад "Favorites"
 notextile. <div style="width:425px" id="__ss_5024341">
 <object id="__sse5024341" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=favoriteandroidapps-100821061249-phpapp01&stripped_title=favorite-android-apps" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5024341" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=favoriteandroidapps-100821061249-phpapp01&stripped_title=favorite-android-apps" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object>
 </div> 
+<br/>
+<br/>
 
 
 p. 1. Дмитрий Стропалов "Средства разработки"
