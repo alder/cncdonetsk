@@ -1,0 +1,9 @@
+---
+layout: post
+title: IT-Jam 2010 в Харькове
+categories: [news]
+author: Артем Дударев
+author_url: 
+---
+
+11 сентября Ciklum организовывает "IT-Jam в Харькове":http://it-jam.ciklum.net/. 

@@ -1,0 +1,9 @@
+---
+layout: post
+title: Августовская встреча
+categories: [news]
+author: Артем Дударев
+author_url: 
+---
+
+Прошла августовская встреча. Говорили о тестировании ПО и Ruby. Смотрите "страницу встречи":/meeting/august-2010-meeting-android.html
