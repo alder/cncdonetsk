@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Сентябрьская встреча: модульное тестирование; spravochnik.dn.ua"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Суббота 18 сентября 12:00-15:00 в "Избе-читальне"
+
+notextile. 
+<br/>
+
+*доклады:*
+
+Павел Митин "Антипаттерны модульного тестирования"
+
+Данил Негриенко "O "spravochnik.dn.ua":http://spravochnik.dn.ua"
+
+-----
+
+h2(next). Волна обсуждений
+
+"ссылка":https://wave.google.com/wave/?nouacheck#minimized:nav,minimized:contact,minimized:search,restored:wave:googlewave.com%252Fw%252B0pxr-VskA.1
+(нужен браузер Google Chrome, Safari 4 или Firefox 3.5)
+
+notextile. <div id="waveframe" style="width: 700px; height: 500px"></div>
+<script type="text/javascript" 
+  src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load("wave", "1");
+google.setOnLoadCallback(initialize);
+function initialize() {
+  var waveframe = document.getElementById("waveframe");
+  var embedOptions = {
+    target: waveframe,
+    header: true,
+    toolbar: true,
+    footer: true
+  };
+  var wavePanel = new google.wave.WavePanel(embedOptions);
+  wavePanel.loadWave("googlewave.com!w+0pxr-VskA");
+}
+</script>
+
+-----
+

@@ -47,9 +47,11 @@ h2(next). "Smaato. Зарабатываем деньги на своем при�
 
 h3. Роман "Romeo Ordos" Богдзиевич 
 
+"ссылка на слайды":https://docs.google.com/fileview?id=0B77fZWxISpOKNzgyMWYwYTQtMjhlMS00ZjYxLWE0MGItMDkxZjVhM2JmNDk0&hl=en
+"заметка на Хабре":http://habrahabr.ru/blogs/android/91480/
+
 notextile. <iframe width=100% height=560px frameborder=0 src=https://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=0B77fZWxISpOKNzgyMWYwYTQtMjhlMS00ZjYxLWE0MGItMDkxZjVhM2JmNDk0&hl=en></iframe>
 
-"http://habrahabr.ru/blogs/android/91480/":http://habrahabr.ru/blogs/android/91480/
 
 -----
 
