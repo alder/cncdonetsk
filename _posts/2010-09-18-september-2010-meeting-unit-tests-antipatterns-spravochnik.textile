@@ -1,21 +1,30 @@
 ---
 layout: post
-title: "Сентябрьская встреча: модульное тестирование; spravochnik.dn.ua"
+title: "Сентябрьская встреча: модульное тестирование; ускорение сайта"
 categories: [meeting]
 author: Артем Дударев
 author_url: 
 ---
 
-h2. Суббота 18 сентября 12:00-15:00 в "Избе-читальне"
+h2. Антипаттерны модульного тестирования
 
-notextile. 
-<br/>
+h3. Павел Митин 
 
-*доклады:*
+<div style="width:600px" id="__ss_5236886">
+<object id="__sse5236886" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=text-100919232920-phpapp02&stripped_title=text-5236886&userName=MitinPavel" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5236886" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=text-100919232920-phpapp02&stripped_title=text-5236886&userName=MitinPavel" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object>
+</div>
 
-Павел Митин "Антипаттерны модульного тестирования"
+-----
 
-Данил Негриенко "O "spravochnik.dn.ua":http://spravochnik.dn.ua"
+h2(next). Как сделать сайт быстрее?
+
+h3. Данил Негриенко
+
+<div style="width:600px" id="__ss_5233784">
+<object id="__sse5233784" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=cnc-100919105228-phpapp01&stripped_title=cnc-5233784&userName=negrienko" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5233784" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=cnc-100919105228-phpapp01&stripped_title=cnc-5233784&userName=negrienko" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object>
+</div>
+
+На опыте создания "spravochnik.dn.ua":http://spravochnik.dn.ua.
 
 -----
 
