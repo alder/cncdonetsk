@@ -14,6 +14,9 @@ h3. Павел Митин
 <object id="__sse5236886" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=text-100919232920-phpapp02&stripped_title=text-5236886&userName=MitinPavel" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5236886" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=text-100919232920-phpapp02&stripped_title=text-5236886&userName=MitinPavel" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object>
 </div>
 
+"http://novembermeeting.blogspot.com":http://novembermeeting.blogspot.com
+"http://github.com/MitinPavel/test_antipatterns":http://github.com/MitinPavel/test_antipatterns
+
 -----
 
 h2(next). Как сделать сайт быстрее?
@@ -25,6 +28,10 @@ h3. Данил Негриенко
 </div>
 
 На опыте создания "spravochnik.dn.ua":http://spravochnik.dn.ua.
+
+"http://clojure.org/":http://clojure.org/
+"http://developer.yahoo.com/yui/compressor/":http://developer.yahoo.com/yui/compressor/
+"http://sysoev.ru/nginx/":http://sysoev.ru/nginx/
 
 -----
 
