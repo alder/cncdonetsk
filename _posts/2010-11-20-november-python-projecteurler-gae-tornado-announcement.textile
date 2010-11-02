@@ -11,7 +11,7 @@ author: Артем Дударев
 Три формальных доклада/мастер-класса:
 
     * Константин Галайко "Обучение языку через "Project Euler":http://projecteuler.net/"
-    * Артем Дударев ""Библиотека":http://code.google.com/p/geotiles/ для хранение гео-данных в Google App Engine"
+    * Артем Дударев ""Библиотека":http://code.google.com/p/geotiles/ для гео-данных в Google App Engine"
     * Александр Литовченко "О веб-сервере "Tornado":http://www.tornadoweb.org/"
 
 Возможно будут lightning talks и, конечно, неформальное общение вокруг и около.
