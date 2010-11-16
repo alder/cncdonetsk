@@ -18,3 +18,7 @@ author: Артем Дударев
 
 <br/>
 Встречаемся, как обычно, с 12:00 в "Избе":http://www.izba4i.com.
+
+<br/>
+<br/>
+<iframe src="https://spreadsheets.google.com/embeddedform?formkey=dGFzZy00THc0NGFEZnRpYnN0TnNvbEE6MQ" width="760" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
