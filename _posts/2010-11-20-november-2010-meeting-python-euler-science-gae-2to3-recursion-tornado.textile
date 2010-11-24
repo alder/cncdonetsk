@@ -1,0 +1,128 @@
+---
+layout: post
+title: "Ноябрьская встреча: Python mini-barcamp"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Изучение Python на примерах Project Euler
+
+h3. Константин Галайко
+
+notextile. <iframe width=100% height=560px frameborder=0 src=https://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=0B4KNV-LX6SETNjU1ZDFlZDMtNjE5Zi00MTU1LTk4ZDQtNmRkNTRlZTdiYjBm&hl=en></iframe><br/><br/>
+
+"Код примеров решения (более 20 задач)":http://github.com/galayko/euler-python
+"Project Euler":http://projecteuler.net/
+
+-----
+
+h2(next). Применение Python в научных исследованиях 
+
+h3. Алексей Деркач
+
+<iframe src="https://docs.google.com/present/embed?id=0AUCRUQwB3SoEZGdjMjVjOWJfNTlnNHp0ZG1jOQ&size=m" frameborder="0" width="555" height="451"></iframe>
+
+"Python in Science: How long until a Nobel Prize?":http://www.doughellmann.com/articles/pythonmagazine/completely-different/2007-11-science/
+"10 Reasons Python Rocks for Research":http://www.stat.washington.edu/~hoytak/blog/whypython.html 
+"Python for Scientific Computing":http://www.maths.lth.se/na/help/media/controlpres.pdf
+"Scientific Scripting with Python":http://www.lulu.com/product/paperback/scientific-scripting-with-python/5957511
+"http://numpy.scipy.org/":http://numpy.scipy.org/
+"http://www.scipy.org/":http://www.scipy.org/
+"http://matplotlib.sourceforge.net/":http://matplotlib.sourceforge.net/
+"http://code.enthought.com/projects/mayavi/":http://code.enthought.com/projects/mayavi/
+"http://code.google.com/p/sympy/":http://code.google.com/p/sympy/
+"http://simpy.sourceforge.net/":http://simpy.sourceforge.net/
+"http://sourceforge.net/projects/pydstool/":http://sourceforge.net/projects/pydstool/
+"http://pynovas.sourceforge.net/":http://pynovas.sourceforge.net/
+"http://www.astro.washington.edu/users/rowen/AstroPy.html":http://www.astro.washington.edu/users/rowen/AstroPy.html
+"http://www2-pcmdi.llnl.gov/cdat":http://www2-pcmdi.llnl.gov/cdat
+"http://www.pyclimate.org/":http://www.pyclimate.org/
+"http://biopython.org/wiki/Main_Page":http://biopython.org/wiki/Main_Page
+"http://www.cuboc3.com/lang/pt-br/projects/epigrass/":http://www.cuboc3.com/lang/pt-br/projects/epigrass/
+
+-----
+
+h2(next). GeoTree - библиотека для гео-данных в Google App Engine 
+
+h3. Артем Дударев
+
+notextile. <div style="width:600px" id="__ss_5852086"><strong style="display:block;margin:12px 0 4px"> </strong><object id="__sse5852086" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=slides-101121104312-phpapp02&stripped_title=geot-google-app-engine&userName=dudarev" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5852086" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=slides-101121104312-phpapp02&stripped_title=geot-google-app-engine&userName=dudarev" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object><div style="padding:5px 0 12px"></div></div>
+
+
+"GeoTree":http://code.google.com/p/geotiles/
+
+Другие библиотеки
+"geodatastore":http://code.google.com/p/geodatastore/
+"geomodel":http://code.google.com/p/geomodel/
+"mutiny":http://code.google.com/p/mutiny/
+"geobox":http://code.google.com/appengine/articles/geosearch.html
+"geobox-lite":http://github.com/phughes/geobox
+
+"Locovidi - пример использования":http://locovidi.appspot.com/
+"Google App Engine":http://code.google.com/appengine/
+"Mercurial":http://mercurial.selenic.com/
+"Как использовать свой diff":http://hgbook.red-bean.com/read/adding-functionality-with-extensions.html
+"Расширение для vim DirrDiff":http://www.vim.org/scripts/script.php?script_id=102
+"geonames dump":http://download.geonames.org/export/dump/
+"rst2pdf":http://code.google.com/p/rst2pdf/
+"пост в блоге о презентациях при помощи rst2pdf":http://lateral.netmanagers.com.ar/stories/BBS52.html
+"частично использовался стиль":http://blog.notmyidea.org/use-restructured-text-rest-to-power-your-presentations.html
+"ссылка на github":http://github.com/dudarev/cncdnua_20101120_python_geotree
+
+-----
+
+h2(next). 2to3
+
+h3. Влад Пранскевичус
+
+notextile. <div style="width:600px" id="__ss_5877841"><strong style="display:block;margin:12px 0 4px"> </strong><object id="__sse5877841" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=presentation-101123120109-phpapp01&stripped_title=2to3-5877841&userName=vlprans" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5877841" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=presentation-101123120109-phpapp01&stripped_title=2to3-5877841&userName=vlprans" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object><div style="padding:5px 0 12px">
+</div></div>
+
+-----
+
+h2(next). Tail Call Optimization Decorator
+
+h3. Сергей
+
+"Tail Call Optimization Decorator":http://code.activestate.com/recipes/474088-tail-call-optimization-decorator/
+"New Tail Recursion Decorator":http://code.activestate.com/recipes/496691-new-tail-recursion-decorator/
+"Tail Recursion in Python":http://paulbutler.org/archives/tail-recursion-in-python/
+
+-----
+
+h2(next). Веб-сервер Tornado
+
+h3. Александр Литовченко
+
+notextile. <div style="width:600px" id="__ss_5878618"><strong style="display:block;margin:12px 0 4px"></strong><object id="__sse5878618" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=tornado-101123124900-phpapp02&stripped_title=tornado-5878618&userName=AlexLitovchenko" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5878618" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=tornado-101123124900-phpapp02&stripped_title=tornado-5878618&userName=AlexLitovchenko" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object><div style="padding:5px 0 12px"></div></div>
+
+"http://litovchenko.com/":http://litovchenko.com/
+"http://wschat.litovchenko.com:8000/":http://wschat.litovchenko.com:8000/
+"http://wschat.litovchenko.com:8000/static/wschat.tgz":http://wschat.litovchenko.com:8000/static/wschat.tgz
+
+-----
+
+h2. Волна обсуждений после встречи
+
+notextile. <div id="waveframe" style="width: 700px; height: 500px"></div>
+<script type="text/javascript" 
+  src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load("wave", "1");
+google.setOnLoadCallback(initialize);
+function initialize() {
+  var waveframe = document.getElementById("waveframe");
+  var embedOptions = {
+    target: waveframe,
+    header: true,
+    toolbar: true,
+    footer: true
+  };
+  var wavePanel = new google.wave.WavePanel(embedOptions);
+  wavePanel.loadWave("googlewave.com!w+LJPBZlrdA");
+}
+</script>
+
+-----
+
