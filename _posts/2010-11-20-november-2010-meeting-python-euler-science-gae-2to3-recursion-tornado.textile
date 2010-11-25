@@ -83,7 +83,7 @@ notextile. <div style="width:600px" id="__ss_5877841"><strong style="display:blo
 
 h2(next). Tail Call Optimization Decorator
 
-h3. Сергей
+h3. Сергей Козырь
 
 "Tail Call Optimization Decorator":http://code.activestate.com/recipes/474088-tail-call-optimization-decorator/
 "New Tail Recursion Decorator":http://code.activestate.com/recipes/496691-new-tail-recursion-decorator/
@@ -100,29 +100,6 @@ notextile. <div style="width:600px" id="__ss_5878618"><strong style="display:blo
 "http://litovchenko.com/":http://litovchenko.com/
 "http://wschat.litovchenko.com:8000/":http://wschat.litovchenko.com:8000/
 "http://wschat.litovchenko.com:8000/static/wschat.tgz":http://wschat.litovchenko.com:8000/static/wschat.tgz
-
------
-
-h2. Волна обсуждений после встречи
-
-notextile. <div id="waveframe" style="width: 700px; height: 500px"></div>
-<script type="text/javascript" 
-  src="http://www.google.com/jsapi"></script>
-<script type="text/javascript">
-google.load("wave", "1");
-google.setOnLoadCallback(initialize);
-function initialize() {
-  var waveframe = document.getElementById("waveframe");
-  var embedOptions = {
-    target: waveframe,
-    header: true,
-    toolbar: true,
-    footer: true
-  };
-  var wavePanel = new google.wave.WavePanel(embedOptions);
-  wavePanel.loadWave("googlewave.com!w+LJPBZlrdA");
-}
-</script>
 
 -----
 
