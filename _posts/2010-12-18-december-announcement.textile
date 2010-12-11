@@ -16,15 +16,13 @@ notextile. <iframe src="https://spreadsheets.google.com/embeddedform?formkey=dGp
 
 ------
 
-h2. Зарегистрировались
+h2. Идут
 
 notextile. <div id="data"></div> 
 <script type="text/javascript"> 
 <!--
-spreadsheet_id = "0Ar7fZWxISpOKdGpXRnV1cGRRX1ZFZTFwTVMteEpKR0E"
-window.onload=function(){
-    displayResults();
-}
+spreadsheet_id = "0Ar7fZWxISpOKdGpXRnV1cGRRX1ZFZTFwTVMteEpKR0E";
+$(document).ready( displayResults() );
 -->
 </script>
 
