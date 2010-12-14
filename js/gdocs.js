@@ -56,6 +56,7 @@ function cellEntries(json) {
   var tbody = document.createElement('tbody');
   
   var tr;
+  var counter = 0;
   
   for (var i=0; i < json.feed.entry.length; i++) {
  
@@ -73,7 +74,12 @@ function cellEntries(json) {
     
     if (entry.gs$cell.col == '2') {
         var td = document.createElement('td');
-        td.appendChild(document.createTextNode(entry.content.$t));
+        if (counter>0){
+            td.appendChild(document.createTextNode(counter+'. '+entry.content.$t));
+        } else {
+            td.appendChild(document.createTextNode(entry.content.$t));
+        }
+        counter++;
         tr.appendChild(td);
     }
 
