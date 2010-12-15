@@ -12,7 +12,9 @@ author: Артем Дударев
 * Филипп Рудь "CouchDB и map/reduce на практике"
 * Дмитрий "Аспектно-ориентированное программирование (АОП) в контексте Java"
 
-notextile. <iframe src="https://spreadsheets.google.com/embeddedform?formkey=dGpXRnV1cGRRX1ZFZTFwTVMteEpKR0E6MQ" width="760" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+Afterparty в "Юзовской пивоварне":http://juz.dn.ua/ с 16:00.
+
+notextile. <br/><br/><iframe src="https://spreadsheets.google.com/embeddedform?formkey=dGpXRnV1cGRRX1ZFZTFwTVMteEpKR0E6MQ" width="760" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ------
 
