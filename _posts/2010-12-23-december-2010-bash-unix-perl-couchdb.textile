@@ -35,6 +35,7 @@ h3. Филипп Рудь
 notextile. <div style="width:600px" id="__ss_6243328"><object id="__sse6243328" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=reduce-101219142256-phpapp02&stripped_title=couchdb-mapreduce&userName=coffeesnake" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6243328" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=reduce-101219142256-phpapp02&stripped_title=couchdb-mapreduce&userName=coffeesnake" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object></div><br/><br/>
 
 "Пост в блоге":http://coffeesnake.blogspot.com/2010/12/couchdb-cncdnua.html
+"Демо-блог на CouchDB":http://coffeesnake.cloudant.com/cncdnua-demoblog/pages/posts.html
 "Пост на Хабре":http://habrahabr.ru/blogs/nosql/101251/
 "http://cloudant.com/":http://cloudant.com/
 "http://guide.couchdb.org/":http://guide.couchdb.org/
