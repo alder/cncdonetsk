@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Декабрьская встреча: Unix, Perl, CouchDB"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. UNIX и 10 000 строк кода на С
+
+h3.  Иван Трусов
+
+"Заметка на Хабре, где 200 строчек на C можно заменить на одну":http://habrahabr.ru/blogs/Git/99421/
+"http://whatthecommit.com/":http://whatthecommit.com/
+"http://www.commandlinefu.com/":http://www.commandlinefu.com/
+
+-----
+
+h2(next). Введение в Perl
+
+h3. Семен Батыр
+
+notextile. <div style="width:600px" id="__ss_6279352"><object id="__sse6279352" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=perlintroduction-101221143145-phpapp01&rel=0&stripped_title=perl-introduction-6279352&userName=bwind" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6279352" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=perlintroduction-101221143145-phpapp01&rel=0&stripped_title=perl-introduction-6279352&userName=bwind" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object></div> <br/><br/>
+
+"http://www.cpan.org/":http://www.cpan.org/
+"http://xkcd.com/224/":http://xkcd.com/224/
+"TIOBE programming languages rating":http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+
+-----
+
+h2(next). CouchDB и map/reduce на практике
+
+h3. Филипп Рудь
+
+notextile. <div style="width:600px" id="__ss_6243328"><object id="__sse6243328" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=reduce-101219142256-phpapp02&stripped_title=couchdb-mapreduce&userName=coffeesnake" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6243328" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=reduce-101219142256-phpapp02&stripped_title=couchdb-mapreduce&userName=coffeesnake" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object></div><br/><br/>
+
+"Пост в блоге":http://coffeesnake.blogspot.com/2010/12/couchdb-cncdnua.html
+"Пост на Хабре":http://habrahabr.ru/blogs/nosql/101251/
+"http://cloudant.com/":http://cloudant.com/
+"http://guide.couchdb.org/":http://guide.couchdb.org/
+"http://wiki.apache.org/couchdb/":http://wiki.apache.org/couchdb/
+"@couchdb":http://twitter.com/#!/couchdb
