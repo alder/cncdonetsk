@@ -6,7 +6,57 @@ author: Артем Дударев
 ---
 
 
-Январская встреча состоится в третью субботу 15 января.
+Январская встреча состоится в третью субботу 15 января с 12:00 в "Избе":http://www.izba4i.com.
+
+notextile. <br/><br/><iframe src="https://spreadsheets.google.com/embeddedform?formkey=dHZycUVmakJvcHctQnNuVTZDaXliZEE6MQ" width="760" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ------
 
+h2. Идут
+
+notextile. <div id="data"></div> 
+<script type="text/javascript"> 
+<!--
+spreadsheet_id = "0Ar7fZWxISpOKdHZycUVmakJvcHctQnNuVTZDaXliZEE";
+$(document).ready( displayResults() );
+-->
+</script>
+
+------
+
+notextile. <br/><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#cncdnua',
+  interval: 6000,
+  title: '',
+  subject: 'Твиты о #cncdnua',
+  width: 500,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+
+------
