@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Scala+Lift, метапрограммирование в Common Lisp, функциональное программирование в Python"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Scala + Lift
+
+h3. Дмитрий Стропалов, Александр Михальчук
+
+notextile. <div style="width:600px" id="__ss_6582933"><object id="__sse6582933" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=scalaliftpresentation-110115153350-phpapp02&stripped_title=scala-and-liftweb-presentation-russian&userName=dmitrystropaloff" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6582933" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=scalaliftpresentation-110115153350-phpapp02&stripped_title=scala-and-liftweb-presentation-russian&userName=dmitrystropaloff" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object></div> <br/><br/>
+
+"Обзор языка программирования Scala":http://www.rsdn.ru/article/philosophy/Scala.xml
+"Статьи на Хабре":http://habrahabr.ru/tag/scala/
+"Programming Scala":http://programming-scala.labs.oreilly.com/
+"Scala reference manual":http://www.scala-lang.org/node/198
+"Scala style guide":http://davetron5000.github.com/scala-style/
+"Exploring Lift":http://exploring.liftweb.net/master/index.html
+"Lift wiki":http://www.assembla.com/wiki/show/liftweb/
+
+-----
+
+h2(next). Метапрограммирование в Common Lisp
+
+h3. Андрей Кутейко
+
+notextile. <div style="width:600px" id="__ss_6670192"><strong style="display:block;margin:12px 0 4px"><object id="__sse6670192" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=cl-metaprogramming-110123041710-phpapp02&stripped_title=cl-metaprogramming&userName=dudarev" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6670192" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=cl-metaprogramming-110123041710-phpapp02&stripped_title=cl-metaprogramming&userName=dudarev" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object></div><br/><br/>
+
+"Paul Graham «On Lisp»":http://www.paulgraham.com/onlisp.html
+"Doug Hoyte «LOL»":http://letoverlambda.com/
+"CL-PPCRE":http://weitz.de/cl-ppcre/
+"Iterate":http://common-lisp.net/project/iterate/
+"ContextL":http://common-lisp.net/project/closer/contextl.html
+"chtml-matcher":http://common-lisp.net/project/chtml-matcher/
+"uri-template":http://common-lisp.net/project/uri-template/
+
+"Пример сайта на Lisp":http://habrahabr.ru/blogs/webdev/112051/ статья на Хабре
+
+-----
+
+h2(next). Функциональное программирование в Python
+
+h3. Артем Дударев
+
+notextile. <div style="width:600px" id="__ss_6576007"><strong style="display:block;margin:12px 0 4px"><object id="__sse6576007" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=slides-110115014723-phpapp01&rel=0&stripped_title=functional-programming-in-python&userName=dudarev" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6576007" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=slides-110115014723-phpapp01&rel=0&stripped_title=functional-programming-in-python&userName=dudarev" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object></div><br/><br/>
+
+"Код для графика":https://github.com/dudarev/datavis/blob/master/005_list_subscribers/subscribers.py
+"Обсуждение switch":http://simonwillison.net/2004/May/7/switch/ 
+"Еще o switch на stackoverflow.com":http://stackoverflow.com/questions/60208/replacements-for-switch-statement-in-python 
+"Несколько способов сортировать один список на основе другого":http://mail.python.org/pipermail/python-list/2006-February/420911.html 
+"Самообучение идиомам в одной заметке на Хабре":http://habrahabr.ru/blogs/python/111588/
+"Guido van Rossum о происхождении элементов ФП в Python":http://python-history.blogspot.com/2009/04/origins-of-pythons-functional-features.html 
+"Перевод этого поста на Хабре":http://habrahabr.ru/blogs/python/111756/ 
+"Python Functional Programming HOWTO":http://docs.python.org/howto/functional.html 
+"Ссылка на слайды доклада на github":http://github.com/dudarev/cncdnua_20110115_python_functional_programming 
