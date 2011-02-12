@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PHP-программисты cреднего уровня."
+title: "PHP-программисты cреднего уровня"
 categories: [vacancy]
 author: Андрей Кутейко
 author_url: 
