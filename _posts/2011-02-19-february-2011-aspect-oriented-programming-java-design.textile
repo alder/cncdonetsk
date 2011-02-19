@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scala+Lift, метапрограммирование в Common Lisp, функциональное программирование в Python"
+title: "Аспектно-ориентированный подход. Дизайн информационных систем."
 categories: [meeting]
 author: Артем Дударев
 author_url: 
