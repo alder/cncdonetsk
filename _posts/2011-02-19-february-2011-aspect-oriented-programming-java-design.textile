@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Scala+Lift, метапрограммирование в Common Lisp, функциональное программирование в Python"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Аспектно-ориентированный подход
+
+h3. Дмитрий Чижиков
+
+notextile. <div style="width:600px" id="__ss_6983778"><object id="__sse6983778" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=presentation-110219082652-phpapp01&stripped_title=ss-6983778&userName=akopium" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6983778" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=presentation-110219082652-phpapp01&stripped_title=ss-6983778&userName=akopium" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object><br/><br/>
+
+"Аспектно-ориентированное программирование (Gregor Kiczales и др.)":http://www.javable.com/columns/aop/workshop/02/
+"AspectJ home page":http://www.eclipse.org/aspectj/
+"AspectJ 5 Quick Reference":http://s3.amazonaws.com/ppt-download/presentation-110219082652-phpapp01.pdf?response-content-disposition=attachment&Signature=RJC7GdgwhMrcHSgYSZB%2B%2B7ddo5c%3D&Expires=1298144629&AWSAccessKeyId=AKIAJLJT267DEGKZDHEQ
+"The AspectJ Programming Guide":http://www.eclipse.org/aspectj/doc/released/progguide/index.html
+"Техническая библиотека IBM - AOP@work":http://www.ibm.com/developerworks/ru/views/java/libraryview.jsp?search_by=AOP@work
+
+-----
+
+h2(next). Проектирование
+
+h3. Алексей Деркач
+
+h4. Wiki
+
+"Golumn":https://github.com/github/gollum - wiki используемая GitHub, изменения в git и разные языки разметки
+"Hatta-wiki":http://hatta-wiki.org/ - изменения в hg, Creole разметка, можно использовать для вики на bitbucket
+"MediaWiki":http://www.mediawiki.org/wiki/MediaWiki
