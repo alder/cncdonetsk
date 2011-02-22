@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Junior/Middle Java developer"
+categories: [vacancy]
+author: Филипп Рудь
+author_url: 
+---
+
+Разыскивается Java-разработчик уровня Junior/Middle для работы в 
+небольшой дружной команде, которого интересует профессиональный рост и 
+развитие, а также стабильная з/п выше рынка. 
+Требования к кандидату: 
+
+- Core Java 5, Servlets, JSP, Struts 1/2. 
+- HTML, CSS, Javascript. 
+- Английский язык уровня "Intermediate" + желание им пользоваться. 
+- Возможность поехать в командировку в Европу на несколько дней. 
+- Полная занятость. 
+
+Контакт: Андрей <andrew.sheludenkov(а)gmail(тчк)com>
+
+"Обсуждение в группе":http://groups.google.com/group/cnc-donetsk/browse_thread/thread/bfdad84ff92c962c
