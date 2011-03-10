@@ -26,6 +26,8 @@ h3. Алексей Деркач
 
 h4. Wiki
 
-"Golumn":https://github.com/github/gollum - wiki используемая GitHub, изменения в git и разные языки разметки
+"Gollum":https://github.com/github/gollum - wiki используемая GitHub, изменения в git и разные языки разметки
 "Hatta-wiki":http://hatta-wiki.org/ - изменения в hg, Creole разметка, можно использовать для вики на bitbucket
 "MediaWiki":http://www.mediawiki.org/wiki/MediaWiki
+
+"Обсуждение о использовании UML при дизайне":http://programmers.stackexchange.com/questions/54666/do-real-developers-use-uml-and-other-case-tools
