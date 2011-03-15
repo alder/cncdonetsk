@@ -5,8 +5,62 @@ categories: [announcement]
 author: Артем Дударев
 ---
 
-Мартовская встреча состоится в третью субботу 19 марта с 12:00 в "Избе":http://www.izba4i.com.
+Мартовская встреча состоится 19 марта (как всегда в третью субботу месяца) с 12:00 в ККЦ ""Кинокульт":http://www.kinocult.com.ua/", "просп. Ватутина 35":http://maps.google.com/?ll=48.015022,37.806004&spn=0.001877,0.004823&z=18.
 
-Будет посвящена веб-дизайну и верстке.
+* Keith Gaddis "Refactoring WTF into OMG -- Strategies for success"
+* Artem Dudarev "Bringing Happiness back to HTML (with Haml, Sass, and Compass)"
+
+Спонсируется "Anahoret":http://anahoret.com/.
+
+notextile. <br/><br/><iframe src="https://spreadsheets.google.com/embeddedform?formkey=dFRjUlpTdF9weHU2NEFXVkl4em85Y2c6MQ&ifq" width="760" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+ 
+------
+ 
+h2. Идут
+
+notextile. <div id="data"></div> 
+<script type="text/javascript"> 
+<!--
+spreadsheet_id = "0Ar7fZWxISpOKdFRjUlpTdF9weHU2NEFXVkl4em85Y2c";
+$(document).ready( displayResults() );
+-->
+</script>
+
+------
+
+notextile. <br/><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#cncdnua',
+  interval: 6000,
+  title: '',
+  subject: 'Твиты о #cncdnua',
+  width: 500,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
 
 ------
