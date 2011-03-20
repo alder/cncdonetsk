@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Refactoring. HTML, CSS, Compass."
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Who are we?
+
+notextile. <br/><div style="width:600px" id="__ss_7321797">
+<object id="__sse7321797" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=whoarewe-110320025124-phpapp01&stripped_title=who-are-we-7321797&userName=dudarev" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse7321797" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=whoarewe-110320025124-phpapp01&stripped_title=who-are-we-7321797&userName=dudarev" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed></object></div>
+
+-----
+
+h2. Refactoring WTF into OMG -- Strategies for success
+
+h3. Keith Gaddis 
+
+h3. "Слайды":http://karmajunkie.github.com/wtfomg/
+
+"Keith @ github":https://github.com/karmajunkie
+
+<iframe title="YouTube video player" width="560" height="349" src="http://www.youtube.com/embed/-OZjHjJToVo" frameborder="0" allowfullscreen></iframe>
+
+<iframe title="YouTube video player" width="425" height="349" src="http://www.youtube.com/embed/_izzTA-j_qQ" frameborder="0" allowfullscreen></iframe>
+
+-----
+
+h2(next). Refactor Yourself with Balalaika
+
+h3. Артем Дударев
+
+notextile. <div style="width:600px" id="__ss_7321827"> 
+<object id="__sse7321827" width="600" height="500"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=slides-110320030605-phpapp02&stripped_title=refactor-yourself-with-balalaika&userName=dudarev" /> <param name="allowFullScreen" value="true"/> <param name="allowScriptAccess" value="always"/> <embed name="__sse7321827" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=slides-110320030605-phpapp02&stripped_title=refactor-yourself-with-balalaika&userName=dudarev" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"></embed> </object> 
+</div><br/>
+
+"Template on github":https://github.com/dudarev/compass_templates/tree/master/001_twitter
+"Haml":http://haml-lang.com/
+"Sass":http://sass-lang.com/
+"Compass":http://compass-style.org/
+
+-----
+
+h2(next). Почему не надо использовать Compass
+
+h3. Алексей Осипенко
+
+h3. "Слайды":http://osipenko.in.ua/compass-presentation.html
+
