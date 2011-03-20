@@ -39,6 +39,7 @@ notextile. <div style="width:600px" id="__ss_7321827">
 "Haml":http://haml-lang.com/
 "Sass":http://sass-lang.com/
 "Compass":http://compass-style.org/
+"Life without Photoshop":http://www.quora.com/Joel-Lewenstein/Life-Without-Photoshop - a post by Quora developer
 
 -----
 
