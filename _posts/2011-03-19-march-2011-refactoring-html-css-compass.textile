@@ -48,5 +48,5 @@ h2(next). Почему не надо использовать Compass
 
 h3. Алексей Осипенко
 
-h3. "Слайды":http://osipenko.in.ua/compass-presentation.html
+h3. "Текст доклада":http://osipenko.in.ua/compass-presentation.html
 
