@@ -6,6 +6,8 @@ author: Артем Дударев
 author_url: 
 ---
 
+strong. При поддержке "Anahoret":http://anahoret.com
+
 h2. Who are we?
 
 notextile. <br/><div style="width:600px" id="__ss_7321797">
