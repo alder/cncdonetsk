@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Trellis-club.com - приглашение к сотрудничеству"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Linkdump
+
+* "http://trellis-club.com/":http://trellis-club.com/
+* "игры Зинги":http://www.zynga.com/games/
+* "камень-ножницы-бумага с datamining":http://www.nytimes.com/interactive/science/rock-paper-scissors.html
+* "дурак - карточная игра на Android":https://market.android.com/details?id=com.symetra.applications.games.durak&feature=search_result
+* "дурак - серверная версия для Android":https://market.android.com/details?id=com.jagplay.client.android.app.durak&feature=search_result от "http://jagplay.ru":http://jagplay.ru

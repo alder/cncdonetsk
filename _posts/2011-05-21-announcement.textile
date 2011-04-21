@@ -1,0 +1,10 @@
+---
+layout: post
+title: Февральская встреча
+categories: [announcement]
+author: Артем Дударев
+---
+
+Майская встреча состоится 21 мая с 12:00 в "Избе":http://izba4i.com.
+
+------
