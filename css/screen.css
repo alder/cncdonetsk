@@ -19,13 +19,15 @@ body {font-family: helvetica, Arial, sans-serif; font-size: 62.5%; }
 
 #content{  float: left;   width: 67%;   margin-top: 0;   font-size: 1.4em; }
   
-#sidebar {  float: right;   padding: 2em 3%;   width: 15%;  border-left: 1px solid #000; }
+#sidebar {  float: right;   padding: 2em 3%;   width: 20%;  border-left: 1px solid #000; height: 60em}
 
 #sidebar ul {list-style: none; margin-left: 20px; }  
   
 #sidebar ul li {font-size: 1.4em; padding-bottom: 7px;}  
   
 #sidebar ul li a {text-decoration: underline;color: #525254; }
+
+#footer {clear: both; height: 5em}
 
 h2.announcement {font-size: 2.4em; margin: 1em 0 0 0;}  
 .announcement {margin: 10px 0 40px 0; font-size:1.2em;}  

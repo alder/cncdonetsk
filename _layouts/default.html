@@ -7,10 +7,59 @@
    <title>Донецкий кофе-и-код:  {{page.title}}</title>
 
    <script type="text/javascript" src="/js/gdocs.js"></script>
-   <script src='http://www.google.com/jsapi' type='text/javascript'></script> 
+   <!--localhost<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAwaGAdBqc0C3COmyw-rm7oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRO-Ju5qCI-X5whmqYDvb8QJJwllg"></script>-->
+   <script src="https://www.google.com/jsapi?key=ABQIAAAAwaGAdBqc0C3COmyw-rm7oBT-ZW0uI_1rKLooqcT1W8i-mToF9hQviKd-HYTQJcwbsK3P9JZutQwY7g" type="text/javascript"></script>
    <script type='text/javascript'> 
         google.load("jquery", "1.4.4");
    </script> 
+   
+   <!-- Group feeds via Google Feed API -->
+   <!-- http://code.google.com/apis/ajax/playground/#dynamic_feed_control_-_vertical -->
+
+   <!-- Dynamic Feed Control and Stylesheet -->
+    <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+            type="text/javascript"></script>
+    <style type="text/css">
+      @import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+      .gfg-entry{ 
+          height: 12em;
+      }
+    </style>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAwaGAdBqc0C3COmyw-rm7oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRO-Ju5qCI-X5whmqYDvb8QJJwllg"></script>
+    <script type="text/javascript">
+
+    google.load('feeds', '1');
+
+    function OnLoad() {
+      var feeds = [
+        {
+          title: 'Посты',
+          url: 'https://groups.google.com/group/cnc-donetsk/feed/atom_v1_0_msgs.xml'
+        },
+        {
+          title: 'Темы',
+          url: 'https://groups.google.com/group/cnc-donetsk/feed/atom_v1_0_topics.xml'
+        }
+      ];
+
+      var options = {
+        stacked : true,
+        horizontal : false,
+        title : "Группа",
+        numResults: 5
+      };
+
+      new GFdynamicFeedControl(feeds, 'feed-widget', options);
+      document.getElementById('feed-widget').style.width = "200px";
+    }
+
+    google.setOnLoadCallback(OnLoad);
+
+    </script>
+
+   <!-- end feed -->
 
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
@@ -47,7 +96,6 @@
 
             <div id="sidebar">
                 <ul>
-                    <li><a href="/news.html">Новости</a></li>
                     <li><a href="/people.html">Люди</a></li>
                     <li><a href="/projects.html">Проекты</a></li>
                     <li><a href="/meetings.html">Встречи</a></li>
@@ -58,12 +106,17 @@
                 <ul>
                     <li><strong><a href="/vacancies.html">Вакансии</a></strong></li>
                 </ul>
+                <br/>
+
+                <div id="feed-widget"></div>
             </div>
 
             <div id="content">
                 {{ content }}
             </div>
         </div>
+
+        <div id="footer"></div>
 
     </div>
 
