@@ -7,9 +7,12 @@ author_url:
 ---
 
 h2. Linkdump
-
+<br/>
 * "http://trellis-club.com/":http://trellis-club.com/
 * "игры Зинги":http://www.zynga.com/games/
 * "камень-ножницы-бумага с datamining":http://www.nytimes.com/interactive/science/rock-paper-scissors.html
 * "дурак - карточная игра на Android":https://market.android.com/details?id=com.symetra.applications.games.durak&feature=search_result
 * "дурак - серверная версия для Android":https://market.android.com/details?id=com.jagplay.client.android.app.durak&feature=search_result от "http://jagplay.ru":http://jagplay.ru
+* Недавние подкасты от "Рунетологии":http://runetologia.podfm.ru/ об играх в интернете
+** "Генеральный директор компании Progrestar Андрей Фадеев":http://runetologia.podfm.ru/151/
+** "Генеральный директор компании «Иннова» Геворк Саркисян":http://runetologia.podfm.ru/135/
