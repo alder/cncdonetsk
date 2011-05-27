@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Ololog, Sahi, Less"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2(next). Что такое Ololog
+
+h3. Артем Дударев
+
+notextile. <div style="width:600px" id="__ss_8127747"> 
+<iframe src="http://www.slideshare.net/slideshow/embed_code/8127747" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> 
+</div>
+
+<br/>
+
+"http://www.ololog.com/":http://www.ololog.com/
+"Код проекта":https://github.com/dudarev/ololog
+
+-----
+
+h2(next). Sahi: инструментарий тестировщика веб-приложений
+
+h3. Алексей Деркач
+
+<iframe src="https://docs.google.com/present/embed?id=0AUCRUQwB3SoEZGdjMjVjOWJfODkybmptbW5mcQ&size=m" frameborder="0" width="555" height="451"></iframe>
+
+"http://seleniumhq.org/":http://seleniumhq.org/
+"http://www.borland.com/us/products/silk/silktest/index.html":http://www.borland.com/us/products/silk/silktest/index.html
+"https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto&cp=1-11-127-24%5E1352_4000_100__":https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto&cp=1-11-127-24%5E1352_4000_100__
+"http://www-01.ibm.com/software/awdtools/tester/robot/index.html":http://www-01.ibm.com/software/awdtools/tester/robot/index.html
+"http://www.automatedqa.com/products/testcomplete/":http://www.automatedqa.com/products/testcomplete/
+"http://watir.com/":http://watir.com/
+"http://kurapov.name/rus/lab/software_testing/":http://kurapov.name/rus/lab/software_testing/
+"http://twill.idyll.org/":http://twill.idyll.org/
+"http://sahi.co.in/w/":http://sahi.co.in/w/
+"http://blog.sahi.co.in":http://blog.sahi.co.in
+
+---
+
+h2(next). Less: the dynamic stylesheet language
+
+h3. Иван Лещёв 
+
+"http://lesscss.org/":http://lesscss.org/ - официальный сайт
+"http://leafo.net/lessphp/":http://leafo.net/lessphp/ - сайт lessphp
+"https://www.sugarsync.com/pf/D6557929_7915290_35323":https://www.sugarsync.com/pf/D6557929_7915290_35323 - код
