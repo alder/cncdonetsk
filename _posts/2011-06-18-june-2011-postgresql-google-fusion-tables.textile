@@ -10,6 +10,8 @@ h2. PostrgreSQL
 
 h3. Александр Литовченко
 
+"Слайды":http://litovchenko.com/static/PostgreSQL.pdf
+<br/>
 "Документация по деревьям":http://www.postgresql.org/docs/current/stazc/ltree.html
 "Страниця модуля полнотекстового поиска":http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
 "Модуль UUID":http://www.ossp.org/pkg/lib/uuid/
