@@ -1,0 +1,39 @@
+---
+layout: post
+title: "PostgreSQL, Google Fusion Tables"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. PostrgreSQL
+
+h3. Александр Литовченко
+
+"Документация по деревьям":http://www.postgresql.org/docs/current/stazc/ltree.html
+"Страниця модуля полнотекстового поиска":http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+"Модуль UUID":http://www.ossp.org/pkg/lib/uuid/
+"Документация для шардинга":http://plproxy.projects.postgresql.org/doc/tutorial.html
+"Связка с Hadoop (не говорили)":http://hadoopdb.sourceforge.net/guide/
+"Тюнинг: Читаем	мемуары	Васильева":http://postgresql.leopard.in.ua/
+"Полезные функции на pl/pgSQL":http://postgresmen.ru/arzcles/view/39
+"Обработка изображений внутри PostgreSQL сервера":https://github.com/drozro/postpic
+"Храним TeX документы внутри сервера":http://www.profv.de/texcaller/
+"Интегрируемся с Memcache":http://pgfoundry.org/projects/pgmemcache/
+<br/>
+"Документация по партицированию":http://www.postgresql.org/docs/current/static/ddl-partitioning.html
+
+-----
+
+h2(next). Пара слов о Google Fusion Tables
+
+h3. Артем Дударев
+
+<iframe src="https://docs.google.com/present/embed?id=dd74k6gg_66hqgh44f7&size=m" frameborder="0" width="555" height="451"></iframe>
+
+"http://www.google.com/fusiontables":http://www.google.com/fusiontables
+"http://code.google.com/apis/fusiontables/":http://code.google.com/apis/fusiontables/
+"Все места из Locovidi":http://www.google.com/fusiontables/DataSource?snapid=S208844Mze1
+"Features":http://www.google.com/fusiontables/public/tour/index.html
+"Группа для обсуждения":https://groups.google.com/forum/#!forum/fusion-tables-users-group
+"Ограничения":http://code.google.com/p/fusion-tables/issues/detail?id=261
