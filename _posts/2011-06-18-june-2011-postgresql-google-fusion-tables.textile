@@ -13,7 +13,7 @@ h3. Александр Литовченко
 "Слайды":http://litovchenko.com/static/PostgreSQL.pdf
 <br/>
 "Документация по деревьям":http://www.postgresql.org/docs/current/stazc/ltree.html
-"Страниця модуля полнотекстового поиска":http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+"Страница модуля полнотекстового поиска":http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
 "Модуль UUID":http://www.ossp.org/pkg/lib/uuid/
 "Документация для шардинга":http://plproxy.projects.postgresql.org/doc/tutorial.html
 "Связка с Hadoop (не говорили)":http://hadoopdb.sourceforge.net/guide/
