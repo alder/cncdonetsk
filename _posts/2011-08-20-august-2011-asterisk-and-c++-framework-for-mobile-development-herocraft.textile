@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Asterisk PBX, кросплатформеная разработка мобильных приложений на C++"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Asterisk PBX
+
+h3. Роман Болгов  
+
+<iframe src="https://docs.google.com/present/embed?id=dhsh2g97_0djdhxjdj&size=m" frameborder="0" width="555" height="451"></iframe>
+
+"Вопросы в гуглодоке":https://docs.google.com/document/d/1QDkchmiVz8r63cTH2jiuwYZMSeRSYsLjP26X7CobQBM/edit
+
+* "Подробнейшее описание всех конфигов, переменных и внутренних функций":http://www.voip-info.org
+* "Форум на русском":http://forum.asterisk.ru/
+* "http://asterisk-support.ru/":http://asterisk-support.ru/
+* "http://www.voipinfo.ru/forum/index.php":http://www.voipinfo.ru/forum/index.php
+
+
+--------------------
+
+h2(next). Кросплатформеная разработка мобильных приложений на C++
+
+h3. Александр Симилетов 
+
+"Вопросы в гуглодоке":https://docs.google.com/document/d/1MO16Ab-bvj_6JTcyss0gON5If-hNPoXrZrjTB_ykr3g/edit
+"Herocraft":http://smart.herocraft.com/en/
+
+Пример игры:
+
+<iframe width="480" height="390" src="http://www.youtube.com/embed/NTgCJ9zF3vM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+----------------------
+
+h2(next). Обсуждение собеседований разработчиков
+<br/>
+
+"Обсуждение в группе":https://groups.google.com/forum/#!topic/cnc-donetsk/wiM8wol6LSU
+
+* "Hiring Developers: You're Doing It Wrong":http://devinterviews.pen.io/
+* "Комментарии на HackerNews":http://news.ycombinator.com/item?id=2385424
+* "Профит Шоу VII: из Кремниевой Долины в Киев":http://www.developers.org.ua/lenta/interviews/profit-show-vii-iz-kremnievoj-doliny-v-kiev/

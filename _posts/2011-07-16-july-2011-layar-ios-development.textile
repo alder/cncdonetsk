@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Layar, обсужение технологий и книг"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Разработка Layar
+
+h3. Никита Иванющенко
+
+"PDF презентации":https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwQISzEkev71NTNiMDJmYzgtYzJiZi00YmVkLWEwNzItYzE3ZTUxOTBlMDRh&hl=en_US
+
+"Гуглодок с вопросами":https://docs.google.com/document/d/14pJGiXjbNGKZ5VOMPK4c1GsRCgCSZCibSE3QKRvFdQ4/edit
+
+Пример использования Layar для игр с AR:
+
+<iframe width="420" height="345" src="http://www.youtube.com/embed/8URL44EM5Os?rel=0" frameborder="0" allowfullscreen></iframe>
+
+--------------------
+
+h2(next). Обсуждение технологий и книг
+<br/>
+
+"Гуглодок со списком книг":https://docs.google.com/document/d/1Yw64-bCxtBvQchvYGPKV0ZdiTOLQFj12bhjp-LNMsi4/edit
