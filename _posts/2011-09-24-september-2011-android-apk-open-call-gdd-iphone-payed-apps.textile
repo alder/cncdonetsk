@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Open Call Android APK (GDD), платные приложения в Apple appstore (анонс)"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. О проекте для Open Call Adroid ADK в рамках Google Developer Day
+
+h3. Роман Богдзиевич (Romeo Ordos)
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/ErptCtY01QI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+--------------------
+
+h2(next). О тонкостях отправки платных iPhone-приложений в Apple appstore
+
+h3. Александр Литовченко 
+
+- покупка сертификатов
+- заключение контрактов и всевозможных соглашений
+- провизорские и дистрибутивные профили
+- цифровые подписи кода
+- локализация
+- ценовые матрицы
+- PG-рейтинги
+- геотаргетинг по странам
+- сборка бандлов
+- апдейтов версий
