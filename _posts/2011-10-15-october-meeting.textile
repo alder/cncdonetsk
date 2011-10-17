@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Октябрьская встреча"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+Посидели как обычно душевно. Потрещали о javascript и dart. Был первый опыт трансляции, благодаря которому нас увидели еще 3 человека, которые не смогли прийти.
+
+Даже немного записали. Вот, например, Рома рассказывает о макаронах:
+
+<iframe src="http://www.ustream.tv/embed/recorded/17888132" width="608" height="368" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
+
+Вот слайды, которые Рома читает:
+
+<iframe src="https://docs.google.com/present/embed?id=dhsh2g97_224vs65cj" frameborder="0" width="610" height="400"></iframe>
+
+Запись Димы о дарт по пречинчиским технинам не получилась.
