@@ -23,3 +23,13 @@ h2(#news). Последние встречи "(extra)архив":/meetings.html
     {% endfor %}
   </ul>
 </notextile>
+
+<hr/>
+
+h2. Другие IT-сообщества Донецка
+
+* "Donetsk QA Community":https://groups.google.com/forum/#!forum/qa-donetsk
+* "OpenStreetMap Donetsk":https://groups.google.com/forum/#!forum/osm-donetsk
+
+* "Donetsk .Net User Group":http://donetsk-usergroup.blogspot.com/
+* "DrupalCamp Donetsk":http://www.facebook.com/groups/drupal.donetsk/
