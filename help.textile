@@ -102,6 +102,9 @@ bc. git mv src dest
 
 </div>
 
+<a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/{{ page.url | replace: '/meeting', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
+<button class="btn">Редактировать</button></a>
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
   (function() {
