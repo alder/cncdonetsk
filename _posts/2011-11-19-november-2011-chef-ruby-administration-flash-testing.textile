@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chef - infrastructure as code; тестирование Flash-приложений"
+title: "Chef - infrastructure as code. Тестирование Flash-приложений."
 categories: [meeting]
 author: Артем Дударев
 author_url: 
