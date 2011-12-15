@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Августовская встреча
+title: Анонс встречи
 categories: [announcement]
 author: Артем Дударев
 ---
