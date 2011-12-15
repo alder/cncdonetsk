@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Node.js; Dart"
+title: "Node.js. Dart."
 categories: [meeting]
 author: Артем Дударев
 author_url: 
