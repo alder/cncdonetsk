@@ -5,5 +5,17 @@ categories: [announcement]
 author: Артем Дударев
 ---
 
-Встречи проходят каждую третью субботу месяца. Обычно в "Избе":http://www.izba4i.com/. 
+Встречи проходят каждую третью субботу месяца. Обычно в "Избе":http://www.izba4i.com/ с полудня. 
+
+*17 декабря встреча начнется в 14:00*
+
+Помянем Константина Галайко
+
+Темы докладов:
+
+* Вячеслав Бирюков "Построение высокодостуного Mysql сервера (Mysql HA solutions)"
+* Артем Дударев "Черновик для donetsk.py #2: Django + Mongo при помощи Mongoengine"
+
+"Правим гуглодок"https://docs.google.com/document/d/1m_6cAhTtaZtDfkQEdNHrbw3UfZ4blnAXQO-_-nKVYNg/edit?hl=en_US
+с возможными темами для свободного обсуждения.
 
