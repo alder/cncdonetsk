@@ -9,10 +9,17 @@ h2(announcement). Анонс
     <div class="announcement">
     {% for a in site.categories.announcement %}
         <p>{{a.content}}</p>
+
+<br/>
+<a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/_posts/{{ a.date | date: "%Y-%m-%d"}}-{{ a.url | replace: '/announcement/', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
+<button class="btn">Редактировать</button></a>
+
     {% endfor %}
     </div>
   </ul>
 </notextile>
+
+------
 
 h2(#news). Последние встречи "(extra)архив":/meetings.html
 
