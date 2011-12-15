@@ -4,6 +4,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, b
 
 body {font-family: helvetica, Arial, sans-serif; font-size: 62.5%; }  
 
+
+li { color:#404040; }
 .container {width: 900px; margin: 0 auto; }
 
 #title { padding-bottom: 10px; border-bottom: 1px solid #000; }
@@ -38,7 +40,8 @@ h3 {margin-top: 1em; margin-bottom:0.5em;}
 
 .section {margin: 10px 0 20px 0; }  
 
-.section li span {color: #AAA; font-family: Monaco, 'Courier New', monospace; font-size: 80%;}
+.section li span {color:#404040; font-size: 80%;}
+
 ul.section li{line-height: 1.75em;}
 ul.section {list-style-type: none;}
 
