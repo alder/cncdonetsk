@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Построение высокодостуного Mysql сервера (Mysql HA solutions)"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+h2. Построение высокодостуного Mysql сервера (Mysql HA solutions)
+
+h3. Вячеслав Бирюков 
+
+--------------------
+
+h2(next). Были на встрече
+
+"Konstantyn Galayko":https://twitter.com/#!/garaiko (в мыслях)
+
+"Артем Дударев":https://twitter.com/#!/dudarev_ru
+
+"Alex Litovchenko":https://plus.google.com/114887696781679664348/posts
+
+"Roman Bolgov":https://plus.google.com/117936857669829273797/posts
+
+"Александр Банов":http://vkontakte.ru/Doncode
+
+"Владимир Суров":https://plus.google.com/u/0/108124320499555993686/posts
+
+"Ivan Trusov":https://twitter.com/#!/zocheg
+
+"Aleksey Derkach":https://twitter.com/#!/alderko
+
+"Alexander Mikhalchuk":https://twitter.com/#!/alex_mikhalchuk
+
+"Сергей Запорожец":http://vkontakte.ru/id26842888
+
+"Алексанр Шишкин":http://eixin.livejournal.com/
+
+"Pavel Mitin":https://twitter.com/#!/map_and_filter
+
+"Алексанр Шишкин":http://vecherka.cssum.net/v2.html
+
+"Alexey Fedorov":http://wateraf.blogspot.com/
+
+"Igor Afonov":https://github.com/iafonov
+
+"Владимир Раскин":http://vkontakte.ru/id666479
+
+"Vlad Pranskevichus":https://twitter.com/#!/vlprans
+
+"Dmytro Chyzhykov":https://twitter.com/#!/dcheJava
+
+Taisiya Yerygina
+
+"Oleksiy Alyeksyeyev":https://plus.google.com/110956000371232756795/about
+
+"Андрей Кутейко":http://andy128k.blogspot.com/
+
+"Вячеслав Бирюков":https://twitter.com/#!/sov1et
+
+"Pavel Reznikov":https://twitter.com/#!/pashka_r
