@@ -12,9 +12,9 @@ h3. Вячеслав Бирюков
 
 <iframe src="https://docs.google.com/present/embed?id=dt3nk5p_381cctrgcfx&size=m" frameborder="0" width="555" height="451"></iframe>
 
-* http://code.google.com/p/mysql-master-ha/
-* http://www.continuent.com/solutions/tungsten-replicator
-* http://code.google.com/p/tungsten-replicator/
+* "http://code.google.com/p/mysql-master-ha/":http://code.google.com/p/mysql-master-ha/
+* "http://www.continuent.com/solutions/tungsten-replicator":http://www.continuent.com/solutions/tungsten-replicator
+* "http://code.google.com/p/tungsten-replicator/":http://code.google.com/p/tungsten-replicator/
 
 --------------------
 
