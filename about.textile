@@ -9,6 +9,12 @@ h2. Коротко о нас
 
 <img src="/about.png" />
 
+Кофе-и-код - встречи для неформальных разговоров о программировании, интернете, высоких технологиях... 
+Какие-то организационные моменты мы заимствуем у мероприятий, которые нас вдохновляют:
+"BarCamp":http://en.wikipedia.org/wiki/BarCamp,
+"Ignite":http://en.wikipedia.org/wiki/Ignite_(event),
+"Café_Philosophique":http://en.wikipedia.org/wiki/Caf%C3%A9_Philosophique.
+
 </div>
 
 <a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/{{ page.url | replace: '/meeting', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
