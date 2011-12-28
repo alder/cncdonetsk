@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Анонс встречи
+title:
 categories: [announcement]
 author: Артем Дударев
 ---

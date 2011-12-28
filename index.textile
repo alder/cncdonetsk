@@ -3,20 +3,18 @@ layout: home
 title: Главная
 ---
 
-h2(announcement). Анонс 
+h2(announcements). Анонсы
 
 <notextile>
+    {% for a in site.categories.announcement reversed %}
     <div class="announcement">
-    {% for a in site.categories.announcement %}
+    {% if a.title != "Announcement" %}<h3>{{a.title}}</h3>{{a.date | date: "%Y-%m-%d" }}{% endif %}
         <p>{{a.content}}</p>
-
 <br/>
 <a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/_posts/{{ a.date | date: "%Y-%m-%d"}}-{{ a.url | replace: '/announcement/', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
 <button class="btn">Редактировать</button></a>
-
-    {% endfor %}
     </div>
-  </ul>
+    {% endfor %}
 </notextile>
 
 ------

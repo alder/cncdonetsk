@@ -1,0 +1,11 @@
+---
+layout: post
+title: Январь - CI, JMeter, PostgreSQL HA
+categories: [announcement]
+author: Артем Дударев
+---
+
+* Владимир Суров "О Teamcity"
+* Дмитрий Стропалов "Hudson/Jenkins в приложении к Android-разработке"
+* Федор Панасенко "О тестирование в Java"
+* Александр Литовченко "High Availability and PostgreSQL"
