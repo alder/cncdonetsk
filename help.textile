@@ -21,22 +21,6 @@ h2. Памятка
 
 </div>
 
-<div id="future">
-
------
-
-h2. Возможные будущие темы
-
-h3. dnpycon
-
-Однотемная встреча с разговорами о Python.
-
-h3. гео-сервисы
-
-Разговоры о веб-сервисах имеющим отношение к местности.
-
-...
-
 -----
 
 h2(#jekyll-how-to). Как использовать Jekyll
@@ -100,7 +84,6 @@ bc. git mv src dest
 
 чтобы анонс оставался только один.
 
-</div>
 
 <a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/{{ page.url | replace: '/meeting', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
 <button class="btn">Редактировать</button></a>
