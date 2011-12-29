@@ -6,9 +6,9 @@ author: Артем Дударев
 ---
 
 * Артем Дударев "Django + Mongo при помощи Mongoengine", "черновик":dudarev-slides-donetsk-py.pdf (pdf)
-* Павел Резников "trackit4me"
 * Кто-то от SteelKiwi (Антон Батериков?)
 * Кто-то от MLSdev (Дмитрий Чижиков?)
 * Артем Дударев, lightning talk по мотивам ""Simple Data Visualization":http://dudarev.github.com/datavis/"
 * (мы приглашаем гостей из других городов Украины)...
+* Павел Резников попробует придумать что рассказыть...
 * ...
