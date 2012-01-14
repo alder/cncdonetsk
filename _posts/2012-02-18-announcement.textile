@@ -6,6 +6,7 @@ author: Артем Дударев
 ---
 
 * Артем Дударев "Django + Mongo при помощи Mongoengine", "черновик":dudarev-slides-donetsk-py.pdf (pdf)
+* Борислав Ларин "О рабочем процессе в "42coffeecups":http://42coffeecups.com/, использовании "Getbarista":http://getbarista.com/"
 * Кто-то от SteelKiwi (Антон Батериков?)
 * Кто-то от MLSdev (?)
 * Артем Дударев, lightning talk по мотивам ""Simple Data Visualization":http://dudarev.github.com/datavis/"
