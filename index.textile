@@ -3,6 +3,11 @@ layout: home
 title: Главная
 ---
 
+<p>
+<br />
+<a href="http://dou.ua/calendar/1315/" style="display: block"><img src="/hackathon.png"></a>
+</p>
+
 h2(announcements). Анонсы
 
 <notextile>
