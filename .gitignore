@@ -1,4 +1,6 @@
 *.swp
 _site
 *.kpf
+*.pyc
+fabfile.py
 
