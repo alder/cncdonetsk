@@ -75,3 +75,7 @@ hr {
 ul {margin-left: 1em; margin-bottom: 1em;}  
 
 .bold {font-weight: bold;}
+
+#plus1button {
+    margin-bottom: 10px;
+}

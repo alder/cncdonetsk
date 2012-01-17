@@ -3,8 +3,27 @@ layout: default
 ---
 <div id="post">
   <h1>{{ page.title }}</h1>
-  <p class="meta">{{ page.date | date: "%Y-%m-%d" }}</p>
+  <p class="meta">
+    <div id="plus1button">
+        <!-- Place this tag where you want the +1 button to render -->
+        <g:plusone size="medium"></g:plusone>
+
+        <!-- Place this render call where appropriate -->
+        <script type="text/javascript">
+          window.___gcfg = {lang: 'ru'};
+
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>    
+    </div>
+
+    {{ page.date | date: "%Y-%m-%d" }}
+  </p>
 {{ content }}
+
 <a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/_posts/{{ page.date | date: "%Y-%m-%d"}}-{{ page.url | replace: '/meeting', '' | replace: '/vacancy', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
 <button class="btn">Редактировать</button></a>
 
