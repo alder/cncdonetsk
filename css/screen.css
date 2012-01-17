@@ -34,6 +34,11 @@ li { color:#404040; }
   
 #sidebar ul li a {text-decoration: underline;color: #525254; }
 
+#rss-feed-menu {
+    background: left center url(/rss.png) no-repeat;
+    padding-left: 20px;
+}
+
 #footer {clear: both; height: 5em}
 
 h2.announcement {font-size: 2.4em; margin: 1em 0 0 0;}  

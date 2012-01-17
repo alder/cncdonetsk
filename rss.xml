@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Донецкий Кофе-и-Код</title>
+    <link>http://cnc.dn.ua/</link>
+    <atom:link href="http://cnc.dn.ua/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Кофе-и-код – встречи для неформальных разговоров о программировании, интернете, высоких технологиях…</description>
+    <language>ru</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for post in site.categories.meeting %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>http://cnc.dn.ua{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <guid>http://cnc.dn.ua{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+
+  </channel> 
+</rss>
