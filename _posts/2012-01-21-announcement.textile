@@ -6,7 +6,7 @@ author: Артем Дударев
 ---
 
 * Владимир Суров "О Teamcity"
-* Дмитрий Стропалов "Hudson/Jenkins в приложении к Android-разработке"
+* <stroke>Дмитрий Стропалов "Hudson/Jenkins в приложении к Android-разработке"</stroke>
 * Федор Панасенко "О тестировании в Java"
-* Александр Литовченко "High Availability and PostgreSQL"
+* <stroke>Александр Литовченко "High Availability and PostgreSQL"</stroke>
 * Игорь Афонов "Что-нибудь про то, как работает веб-сервер"
