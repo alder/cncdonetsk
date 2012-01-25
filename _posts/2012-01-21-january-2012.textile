@@ -1,18 +1,28 @@
 ---
 layout: post
-title: "Январская встреча Кофе-и-код"
+title: "Web Servers. Teamcity."
 categories: [meeting]
 author: Павел Резников
 author_url: 
 ---
 
-h2. Игорь Афонов "Что-нибудь про то, как работает веб-сервер"
+h2. Игорь Афонов "Web servers (and how I created my own one)"
+
+<br/>
+<script src="http://speakerdeck.com/embed/4f1b026ce9450900a5009b94.js"></script>
+<br/>
 
 * "Слайды":http://speakerdeck.com/u/iafonov/p/web-servers-and-how-i-created-my-own-one
 * Сам проект лежит "здесь":https://github.com/iafonov/cosmonaut, а "здесь":https://github.com/iafonov/cosmonaut/wiki/Links небольшая свалка ссылок по теме.
 * Если тема интересна то особо могу порекомендовать подчитать вот "эту штуку":http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html
 
-h2. Владимир Суров "О Teamcity"
+h2. Владимир Суров "Teamcity - краткое знакомство"
+
+<br/>
+<iframe src="https://docs.google.com/present/embed?id=0AQhZ0uGoPdA-ZGM2dHZiOGdfMzdnazh6ZzJjOQ&size=m" frameborder="0" width="555" height="451"></iframe>
+<br/>
 
 * "Презентация":https://docs.google.com/present/edit?id=0AQhZ0uGoPdA-ZGM2dHZiOGdfMzdnazh6ZzJjOQ
 * "Туда":https://docs.google.com/document/d/1B_F3rRhpKoUMBBNp8jufskyfktXHeo-inw-rJ5GmsYI/edit можете писать вопросы по TeamCity
+
+<br/>
