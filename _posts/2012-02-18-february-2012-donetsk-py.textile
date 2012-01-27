@@ -40,6 +40,8 @@ window.onload=function(){
 * Кто-то от MLSdev (?)
 * Александр Литовченко “High Availability and PostgreSQL”
 * Павел Резников попробует придумать что рассказыть (fabric?)...
+* Кто-то от SteelKiwi (Антон Батериков?)
+* Кто-то от MLSdev (?)
 
 h2. При поддержке
 
