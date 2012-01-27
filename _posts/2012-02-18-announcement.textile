@@ -7,14 +7,5 @@ author: Артем Дударев
 
 <br/>
 Встреча состоится 18 февраля с 12:00 в **конференц-зале Компьютерной Академии «ШАГ»**.
-Следите за "страницей встречи":/meeting/february-2012-donetsk-py.html.
-
-* Артем Дударев "Django + Mongo при помощи Mongoengine", "черновик":dudarev-slides-donetsk-py.pdf (pdf)
-* Борислав Ларин "О рабочем процессе в "42coffeecups":http://42coffeecups.com/, использовании "Getbarista":http://getbarista.com/"
-* Кто-то от SteelKiwi (Антон Батериков?)
-* Кто-то от MLSdev (?)
-* Артем Дударев, lightning talk по мотивам ""Simple Data Visualization":http://dudarev.github.com/datavis/"
-* Александр Литовченко “High Availability and PostgreSQL”
-* (мы приглашаем гостей из других городов Украины)...
-* Павел Резников попробует придумать что рассказыть (fabric?)...
-* ...
+Зарегистрируйтесь на **"странице встречи":/meeting/february-2012-donetsk-py.html**.
+Смотрите ориентировочные списки участников и докладчиков там же.
