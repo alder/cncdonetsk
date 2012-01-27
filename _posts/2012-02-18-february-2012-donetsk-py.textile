@@ -14,6 +14,23 @@ author_url:
 <img src="/donetskpy.png">
 </p>
 
+Зарегистрируйтесь, чтобы знать сколько участников ожидать. Зарегистрировавшиеся зайдут в конференц-зал первыми. Если при регистрации допустите ошибку - поправьте "форму":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdDYwTHZMTVdlQVYwXzFZUUxvaV95T2c#gid=0 (доступ есть у всех участников "группы":https://groups.google.com/forum/#!forum/cnc-donetsk).
+
+<br/>
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDYwTHZMTVdlQVYwXzFZUUxvaV95T2c6MQ" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+notextile. <h2>Зарегистрировались</h2>
+<div id="data"></div> 
+<script type="text/javascript" src="/js/gdocs.js"></script>
+<script type="text/javascript"> 
+<!--
+spreadsheet_id = "0Ar7fZWxISpOKdDYwTHZMTVdlQVYwXzFZUUxvaV95T2c"
+window.onload=function(){
+    displayResults();
+}
+-->
+</script>
 
 Это мини-баркемп. Программа будет определяться прямо перед началом. Ориентировочные доклады:
 
