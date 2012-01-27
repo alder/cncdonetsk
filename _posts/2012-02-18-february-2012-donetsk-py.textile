@@ -6,6 +6,10 @@ author: Артем Дударев
 author_url: 
 ---
 
+h2. При поддержке
+
+<a href="http://www.itstep.org/"><img src="/img/step2.png" style="display:inline-block;margin:0 20px 20px 0;height:77px;"></a>
+
 Место: г. Донецк, пр. Мира, 8, 5-й этаж — конференц-зал Компьютерная Академия «ШАГ»
 Время: с 12:00 в субботу 18 февраля 2012 г.
 
@@ -41,9 +45,6 @@ window.onload=function(){
 * Кто-то от SteelKiwi (Антон Батериков?)
 * Кто-то от MLSdev (?)
 
-h2. При поддержке
-
-<a href="http://www.itstep.org/"><img src="/img/step2.png" style="display:inline-block;margin:0 20px 20px 0;height:77px;"></a>
 
 Мы будем благодарны спонсору, который поможет с кофе и печеньками для стимуляции общения в перерывах.
 
