@@ -36,8 +36,6 @@ window.onload=function(){
 
 * Артем Дударев "Django + Mongo при помощи Mongoengine"
 * Борислав Ларин "О рабочем процессе в "42coffeecups":http://42coffeecups.com/, использовании "Getbarista":http://getbarista.com/"
-* Кто-то от SteelKiwi (Антон Батериков?)
-* Кто-то от MLSdev (?)
 * Александр Литовченко “High Availability and PostgreSQL”
 * Павел Резников попробует придумать что рассказыть (fabric?)...
 * Кто-то от SteelKiwi (Антон Батериков?)
