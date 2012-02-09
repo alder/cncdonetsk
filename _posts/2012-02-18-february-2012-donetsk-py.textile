@@ -22,10 +22,9 @@ h2. При поддержке
 
 * Артем Дударев "Django + Mongo при помощи Mongoengine"
 * Борислав Ларин "О рабочем процессе в "42coffeecups":http://42coffeecups.com/, использовании "Getbarista":http://getbarista.com/"
-* Александр Литовченко “High Availability and PostgreSQL”
+* Александр Литовченко "High Availability and PostgreSQL"
 * Павел Резников попробует придумать что рассказыть (fabric?)...
-* Кто-то от SteelKiwi (Антон Батериков?)
-* Кто-то от MLSdev (?)
+* Антон Батериков и Клим Шумаев "Test-Driven Development (TDD) в Django"
 
 
 Мы будем благодарны спонсору, который поможет с кофе и печеньками для стимуляции общения в перерывах.
