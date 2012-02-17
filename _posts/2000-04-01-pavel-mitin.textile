@@ -1,0 +1,10 @@
+---
+layout: people
+title: Павел Митин
+categories: [people]
+author: Павел Митин
+author_url:
+twitter: map_and_filter
+site: http://novembermeeting.blogspot.com/
+site_name: Blogspot
+---
