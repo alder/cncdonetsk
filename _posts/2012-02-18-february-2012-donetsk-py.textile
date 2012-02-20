@@ -56,6 +56,14 @@ h2(next). Fabric
 
 h3. Павел Резников
 
+notextile. <div style="width:600px" id="__ss_11676054"> 
+<iframe src="http://www.slideshare.net/slideshow/embed_code/11676054" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> 
+<br/>
+<br/>
+</div>
+
+* "fabfile.org":http://fabfile.org
+
 h2(next). Test-Driven Development (TDD) в Django
 
 h3. Антон Батериков и Клим Шумаев
@@ -70,5 +78,15 @@ h3. Александр Литовченко
 h2(next). Про внутреннее устройство "2056.ru":http://2056.ru
 
 h3. Андрей Светлов
+
+notextile. <div style="width:600px" id="__ss_11676545"> 
+<iframe src="http://www.slideshare.net/slideshow/embed_code/11676545" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> 
+<br/>
+<br/>
+</div>
+
+* "2056.ru":http://2056.ru/
+* "http://asvetlov.blogspot.com/":http://asvetlov.blogspot.com/
+
 
 "Список регистрировавшихся":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdDYwTHZMTVdlQVYwXzFZUUxvaV95T2c#gid=0
