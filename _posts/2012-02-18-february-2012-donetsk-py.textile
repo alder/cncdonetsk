@@ -15,14 +15,60 @@ h2. При поддержке
 <img src="/donetskpy.png">
 </p>
 
-* Артем Дударев "Django + Mongo при помощи Mongoengine"
-* Борислав Ларин "О рабочем процессе в "42coffeecups":http://42coffeecups.com/, использовании "Getbarista":http://getbarista.com/"
+h2. Django и Mongo при помощи Mongoengine
 
-* Павел Резников попробует придумать что рассказыть (fabric?)...
-* Антон Батериков и Клим Шумаев "Test-Driven Development (TDD) в Django"
+h3. Артем Дударев 
 
-* Александр Литовченко "Обзор SQLAlchemy"
-* Андрей Светлов "Про внутреннее устройство "2056.ru":http://2056.ru"
+notextile. <div style="width:600px" id="__ss_11640531"> 
+<iframe src="http://www.slideshare.net/slideshow/embed_code/11640531" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> 
+<br/>
+<br/>
+</div>
 
+"PDF":http://www.slideshare.net/signup?from=download&from_source=http://www.slideshare.net/dudarev/django-with-mongo-using-mongoengine/download&download_id=11640531-314bf187025fad0c48c58759b70aad53a4e87bdc-slideshow
+
+* "Django":https://www.djangoproject.com/
+* "Mongo":http://www.mongodb.org/
+* "Mongoengine":http://mongoengine.org/
+* "Django-mongonaut":https://github.com/pydanny/django-mongonaut to replicate some admin functionality with Mongoengine
+* "Which Python API should be used with Mongo DB and Django?":http://stackoverflow.com/questions/2740837/which-python-api-should-be-used-with-mongo-db-and-django
+* "PyMongo":http://api.mongodb.org/python/1.6/index.html
+* "Django MongoDB Engine":http://django-mongodb.org/
+* "MongoDB backend for Django-nonrel":http://www.allbuttonspressed.com/blog/django/2010/05/MongoDB-backend-for-Django-nonrel-released
+* "Mongo Quickstart for Unix":http://www.mongodb.org/display/DOCS/Quickstart+Unix
+
+h2(next). Как мы работаем
+
+h3. Борислав Ларин 
+
+<script src="http://speakerdeck.com/embed/4f40d400fba959001f0098fd.js"></script>
+<br/>
+
+"PDF":https://speakerd.s3.amazonaws.com/presentations/4f40d400fba959001f0098fd/42ccatdonetsk.py.pdf
+
+* "42coffeecups":http://42coffeecups.com/
+* "Getbarista":http://getbarista.com/
+* "Framebox":http://framebox.org/
+* "http://blog.brabadu.com/":http://blog.brabadu.com/
+* "https://twitter.com/#!/brabadu":https://twitter.com/#!/brabadu
+
+h2(next). Fabric
+
+h3. Павел Резников
+
+h2(next). Test-Driven Development (TDD) в Django
+
+h3. Антон Батериков и Клим Шумаев
+
+<div class="prezi-player"><style type="text/css" media="screen">.prezi-player { width: 550px; } .prezi-player-links { text-align: center; }</style><object id="prezi_nsoxtv9-en9b" name="prezi_nsoxtv9-en9b" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="400"><param name="movie" value="http://prezi.com/bin/preziloader.swf"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="bgcolor" value="#ffffff"/><param name="flashvars" value="prezi_id=nsoxtv9-en9b&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0"/><embed id="preziEmbed_nsoxtv9-en9b" name="preziEmbed_nsoxtv9-en9b" src="http://prezi.com/bin/preziloader.swf" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="550" height="400" bgcolor="#ffffff" flashvars="prezi_id=nsoxtv9-en9b&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0"></embed></object><div class="prezi-player-links">
+</div></div>
+
+h2(next). Обзор SQLAlchemy
+
+h3. Александр Литовченко
+
+h2(next). Про внутреннее устройство "2056.ru":http://2056.ru
+
+h3. Андрей Светлов
 
 "Список регистрировавшихся":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdDYwTHZMTVdlQVYwXzFZUUxvaV95T2c#gid=0
