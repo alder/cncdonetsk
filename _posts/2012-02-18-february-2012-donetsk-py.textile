@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Donetsk.py #2 (анонс)"
+title: "Donetsk.py #2"
 categories: [meeting]
 author: Артем Дударев
 author_url: 
@@ -8,42 +8,21 @@ author_url:
 
 h2. При поддержке
 
-<a href="http://www.itstep.org/"><img src="/img/step2.png" style="display:inline-block;margin:0 20px 20px 0;height:77px;"></a>
-
-Место: г. Донецк, пр. Мира, 8, 5-й этаж — конференц-зал Компьютерная Академия «ШАГ»
-Время: с 13:00 в субботу 18 февраля 2012 г.
+<a href="http://www.itstep.org/"><img src="/img/step2.png" style="display:inline-block;margin:0 20px 20px 0;height:77px;"></a> <a href="http://steelkiwi.com/"><img src="/img/steelkiwi.png" style="display:inline-block;margin:0 20px 20px 0;height:77px;"></a> <a href="http://trellis-club.com/ru/"><img src="/img/trellis.png" style="display:inline-block;margin:0 20px 20px 0;height:77px;"></a>
 
 <p>
 <br />
 <img src="/donetskpy.png">
 </p>
 
-Это мини-баркемп. Программа будет определяться прямо перед началом. Ориентировочные доклады:
-
-* Андрей Светлов "Про внутреннее устройство "2056.ru":http://2056.ru"
-* Александр Литовченко "Обзор SQLAlchemy"
-* Антон Батериков и Клим Шумаев "Test-Driven Development (TDD) в Django"
-* Борислав Ларин "О рабочем процессе в "42coffeecups":http://42coffeecups.com/, использовании "Getbarista":http://getbarista.com/"
-* Павел Резников попробует придумать что рассказыть (fabric?)...
 * Артем Дударев "Django + Mongo при помощи Mongoengine"
+* Борислав Ларин "О рабочем процессе в "42coffeecups":http://42coffeecups.com/, использовании "Getbarista":http://getbarista.com/"
 
-Мы будем благодарны спонсору, который поможет с кофе и печеньками для стимуляции общения в перерывах.
+* Павел Резников попробует придумать что рассказыть (fabric?)...
+* Антон Батериков и Клим Шумаев "Test-Driven Development (TDD) в Django"
 
-Зарегистрируйтесь, чтобы знать сколько участников ожидать. Зарегистрировавшиеся зайдут в конференц-зал первыми. Если при регистрации допустите ошибку - поправьте "форму":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdDYwTHZMTVdlQVYwXzFZUUxvaV95T2c#gid=0 (доступ есть у всех участников "группы":https://groups.google.com/forum/#!forum/cnc-donetsk).
-
-<br/>
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDYwTHZMTVdlQVYwXzFZUUxvaV95T2c6MQ" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+* Александр Литовченко "Обзор SQLAlchemy"
+* Андрей Светлов "Про внутреннее устройство "2056.ru":http://2056.ru"
 
 
-notextile. <h2>Зарегистрировались</h2>
-<div id="data"></div> 
-<script type="text/javascript" src="/js/gdocs.js"></script>
-<script type="text/javascript"> 
-<!--
-spreadsheet_id = "0Ar7fZWxISpOKdDYwTHZMTVdlQVYwXzFZUUxvaV95T2c"
-window.onload=function(){
-    displayResults();
-}
--->
-</script>
-
+"Список регистрировавшихся":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdDYwTHZMTVdlQVYwXzFZUUxvaV95T2c#gid=0
