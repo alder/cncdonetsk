@@ -75,6 +75,10 @@ h2(next). Обзор SQLAlchemy
 
 h3. Александр Литовченко
 
+"PDF":/pdf/2012-02-litovchenko-sqlalchemy.pdf
+
+* "http://www.sqlalchemy.org/":http://www.sqlalchemy.org/
+
 h2(next). Про внутреннее устройство "2056.ru":http://2056.ru
 
 h3. Андрей Светлов
