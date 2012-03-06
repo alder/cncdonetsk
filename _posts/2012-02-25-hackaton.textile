@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Донецкий хакатон"
+title: "Донецкий Хакатон"
 categories: [meeting]
 author: Павел Резников
 author_url: 
