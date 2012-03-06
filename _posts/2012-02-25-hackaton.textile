@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Донецкий хакатон"
+categories: [meeting]
+author: Павел Резников
+author_url: 
+---
+
+h2. Донецкий Хакатон, или “Донбасс порожняк не гонит!”­
+
+!http://s.developers.org.ua/uploads/alder/11_r.jpeg!
+
+<p>Ну что, вот теперь Донецкий Хакатон официально можно считать завершенным.</p>
+
+!http://s.developers.org.ua/uploads/alder/12.jpeg!
+
+<p>Спасибо всем, кто помогал, кто пришел. Спасибо, Леша, за отчет. Его, ктстати, можно почитать вот "тут":http://dou.ua/lenta/events/doneckij-hakaton-ili-donbass-porozhnyak-ne-gonit/</p>
