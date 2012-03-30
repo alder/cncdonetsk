@@ -1,0 +1,8 @@
+---
+layout: home
+title: Интересные события (в Донецке и не только)
+---
+
+h2. Интересные события в Донецке и не только
+
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=j1jfm2fu59mr05d0d2deemdmpo%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=Europe%2FKiev" style=" border-width:0 " width="600" height="600" frameborder="0" scrolling="no"></iframe>
