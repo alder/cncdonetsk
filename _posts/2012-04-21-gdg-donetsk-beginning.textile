@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GDG Donetsk - начало"
-categories: [meeting]
+categories: [announcement]
 author: Артем Дударев
 author_url: 
 ---
