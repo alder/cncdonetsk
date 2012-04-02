@@ -14,3 +14,15 @@ h2. При поддержке
 
 <br/>
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHhhTkFnVHJVSTZ2R095RGI5eVJmTnc6MQ" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+notextile. <h2>Зарегистрировались</h2>
+<div id="data"></div> 
+<script type="text/javascript" src="/js/gdocs.js"></script>
+<script type="text/javascript"> 
+<!--
+spreadsheet_id = "0Ar7fZWxISpOKdHhhTkFnVHJVSTZ2R095RGI5eVJmTnc"
+window.onload=function(){
+    displayResults();
+}
+-->
+</script>

@@ -25,15 +25,3 @@ h2. Доклады
 <div style="margin-top: 30px">
 <a href="/gdg-registration.html" style="font-size: 18px;">Регистрация</a>
 </div>
-
-notextile. <h2>Зарегистрировались</h2>
-<div id="data"></div> 
-<script type="text/javascript" src="/js/gdocs.js"></script>
-<script type="text/javascript"> 
-<!--
-spreadsheet_id = "0Ar7fZWxISpOKdHhhTkFnVHJVSTZ2R095RGI5eVJmTnc"
-window.onload=function(){
-    displayResults();
-}
--->
-</script>
