@@ -1,0 +1,38 @@
+---
+layout: post
+title: "GDG Donetsk - начало"
+categories: [meeting]
+author: Артем Дударев
+author_url: 
+---
+
+Место: г. Донецк, бизнес-центр «Северная Пальмира», ул. Горячкина, 26 (рядом с Амстором на Ильича), 1-й этаж — конференц-зал Ciklum
+Время: с 12:00 в субботу 21 апреля 2012 г.
+
+h2. При поддержке
+
+<a href="http://ciklum.com/"><img src="/img/CiklumLogo.jpg"></a>
+
+h2. Доклады
+
+* Роман Богдзиевич "О GDG. О поездке на GDD в Москву. О планах."
+* Артем Дударев "Сделать расширение для Google Chrome просто. Mapjumper."
+* ...
+
+Зарегистрируйтесь, чтобы знать сколько участников ожидать. Зарегистрировавшиеся зайдут в конференц-зал первыми. Если при регистрации допустите ошибку - поправьте "форму":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdHhhTkFnVHJVSTZ2R095RGI5eVJmTnc#gid=0 (доступ есть у всех участников "группы":https://groups.google.com/forum/#!forum/cnc-donetsk).
+
+<br/>
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHhhTkFnVHJVSTZ2R095RGI5eVJmTnc6MQ" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+notextile. <h2>Зарегистрировались</h2>
+<div id="data"></div> 
+<script type="text/javascript" src="/js/gdocs.js"></script>
+<script type="text/javascript"> 
+<!--
+spreadsheet_id = "0Ar7fZWxISpOKdHhhTkFnVHJVSTZ2R095RGI5eVJmTnc"
+window.onload=function(){
+    displayResults();
+}
+-->
+</script>
