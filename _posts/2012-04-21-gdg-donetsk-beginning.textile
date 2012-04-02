@@ -21,9 +21,10 @@ h2. Доклады
 
 Зарегистрируйтесь, чтобы знать сколько участников ожидать. Зарегистрировавшиеся зайдут в конференц-зал первыми. Если при регистрации допустите ошибку - поправьте "форму":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdHhhTkFnVHJVSTZ2R095RGI5eVJmTnc#gid=0 (доступ есть у всех участников "группы":https://groups.google.com/forum/#!forum/cnc-donetsk).
 
-<br/>
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHhhTkFnVHJVSTZ2R095RGI5eVJmTnc6MQ" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
+<div style="margin-top: 30px">
+<a href="/gdg-registration.html" style="font-size: 18px;">Регистрация</a>
+</div>
 
 notextile. <h2>Зарегистрировались</h2>
 <div id="data"></div> 
