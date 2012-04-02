@@ -1,0 +1,14 @@
+---
+layout: post
+title:
+categories: [announcement]
+author: Артем Дударев
+---
+
+h2. Google Developers Group (GDG) Donetsk - начало
+
+21 апреля с 12:00 в Ciklum
+
+<strong>
+"Зарегистрируйтесь":/meeting/gdg-donetsk-beginning.html
+<strong>
