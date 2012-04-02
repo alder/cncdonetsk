@@ -33,6 +33,7 @@ h2(#news). Последние встречи "(extra)архив":/meetings.html
 
 h2. Другие IT-сообщества Донецка
 
+* "GDG Donetsk":http://donetsk.gdg.org.ua/
 * "Donetsk QA Community":https://groups.google.com/forum/#!forum/qa-donetsk
 * "OpenStreetMap Donetsk":https://groups.google.com/forum/#!forum/osm-donetsk
 
