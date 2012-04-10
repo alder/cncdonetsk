@@ -17,10 +17,11 @@ h2(announcements). Анонсы
 <a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/_posts/{{ a.date | date: "%Y-%m-%d"}}-{{ a.url | replace: '/announcement/', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
 <button class="btn">Редактировать</button></a>
     </div>
+    {% if a.title != "Announcement" %}
+    <hr/>
+    {% endif %}
     {% endfor %}
 </notextile>
-
-------
 
 h2(#news). Последние встречи "(extra)архив":/meetings.html
 
