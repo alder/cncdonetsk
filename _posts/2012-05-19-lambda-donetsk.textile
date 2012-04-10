@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Lambda.donetsk"
+categories: [announcement]
+author: Pavel Reznikov
+author_url: 
+---
+
+Место: г. Донецк, Артема 110, кофейня "Изба-читальня"
+Время: с 12:00 в субботу 19 мая 2012 г.
+
+<br/>
+<img src="/lambda.png">
+
+h2. Доклады
+
+* Влад подготовит доклад-обзор Concurrency and Parallelism in Haskell.
+* Дима и Андрей тоже предлагали доклады
