@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Второй поток (классическая встреча)"
+categories: [announcement]
+author: Артем Дударев
+author_url: 
+---
+
+Место: г. Донецк, ул. Артема, 110, кофейня Изба-читальня
+Время: с 12:00 в субботу 21 апреля 2012 г.
+Координатор: Дмитрий Стропалов
+
+h2. Доклады
+
+* Тренировки докладов перед майской встречей lambda-donetsk.
+* (ориентировочно) Roman Zolotaryov "Garbage collector and memory management in HotSpot JVM"
+* (возможно) Igor Afonov "Pragmatic approach to infrastructure setup verification & testing with chef and cucumber"
+
+h2. Темы для вольных обсуждений
+
+* ...
