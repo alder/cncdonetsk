@@ -14,6 +14,7 @@ h2. Доклады
 
 * (ориентировочно) Roman Zolotaryov "Garbage collector and memory management in HotSpot JVM"
 * (возможно) Igor Afonov "Pragmatic approach to infrastructure setup verification & testing with chef and cucumber"
+* Щигров Ден "Простая физика Box2d" 
 
 h2. Темы для вольных обсуждений
 
