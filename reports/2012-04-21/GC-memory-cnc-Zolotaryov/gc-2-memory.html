@@ -1,0 +1,174 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=1024"/>
+	<title>Garbage collector and memory management in HotSpot JVM | by Zolotaryov Roman</title>
+	<meta name="author" content="Roman Zolotaryov"/>
+	<link href="resources/bartaz-impress.js-0.5.3-1/css/impress-demo.css" rel="stylesheet"/>
+
+	<script src="resources/jquery/jquery.min.js" type="text/javascript"></script>
+	<script src="resources/highcharts-2.2.1/js/highcharts.js" type="text/javascript"></script>
+	<script type="text/javascript" src="resources/presenatationCharts.js"></script>
+
+	<script type="text/javascript" src="resources/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	<script type="text/javascript" src="resources/syntaxhighlighter_3.0.83/scripts/shBrushJava.js"></script>
+	<link href="resources/syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css"/>
+	<link href="resources/syntaxhighlighter_3.0.83/styles/shThemeEclipse.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.all();
+	</script>
+
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+		version of this presentation.</p>
+
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="500">
+
+
+	<div id="title" class="step" data-x="1000" data-y="0" data-rotate="0" data-scale="4">
+		<h1><b class="green">Garbage Collector</b> <br/>и управление памятью</h1>
+		<q>в <b class="red">HotSpot</b> JVM</q>
+		<br/><br/>
+		<p class="footnote">Роман Золотарев</p>
+	</div>
+
+	<div id="memStart" class="step slide" data-x="5000" data-y="-500" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Теория поколений и <span class="green">GC</span></q>
+		<br/>
+		<img src="pictures/molodost.jpg" style="height: 80%;margin-left: 15%"/>
+	</div>
+
+	<div id="mem1" class="step slide" data-x="6000" data-y="-500" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Теория поколений и <span class="green">GC</span></q>
+
+		<div id="genTheoryContainer" style="height:63%"></div>
+		<span class="red">Умершие очень быстро</span><br/>
+		<span class="yellow">Средняя продолжительность жизни</span><br/>
+		<span class="green">Долгоживущие объекты</span><br/>
+	</div>
+
+	<div id="mem2" class="step slide" data-x="7000" data-y="-500" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Очевидное разделение памяти</q>
+		<br/>
+		<b class="red" style="font-size: 50px; margin-left: 23%">Young Generation</b><br/>
+		<img src="pictures/angryBirds.png" style="height: 20%; margin-left: 25%; margin-top: 2%"><br/>
+		<br/>
+		<b class="green" style="margin-left: 28%; font-size: 50px">Old Generation</b><br/>
+		<img src="pictures/Super_8_Bit_Mario.png" style="height: 30%; margin-left: 41%; margin-top: 3%">
+	</div>
+
+	<div id="mem3" class="step slide" data-x="8000" data-y="-1000" data-z="-1000" data-rotate="-0" data-scale="1">
+		<q>Особенности <span class="red">Young Gen</span></q><br/>
+		<li>Аллокация объектов</li>
+		<li>Быстрое заполнение</li>
+		<li>Частая сборка мусора</li>
+		<li>Более быстрая сборка чем в <span class="green">Old Gen</span></li>
+		<li>Как правило, меньше по размеру чем <span class="green">Old Gen</span></li>
+		<li>Живых объектов на много меньше, чем мусора</li>
+	</div>
+
+	<div id="mem4" class="step slide" data-x="8000" data-y="0" data-z="-1000" data-rotate="0" data-scale="1">
+		<q>Особенности <span class="green">Old Gen</span></q><br/>
+		<li>Новые объекты приходят из <span class="red">Yong Gen</span> (promotion)</li>
+		<li>Порог входа по достижению определенного возраста</li>
+		<li>Редкая сборка мусора</li>
+		<li>Сборка более медленная и сложнее чем в <span class="red">Yong Gen</span></li>
+	</div>
+
+	<div id="MemMap" class="step slide" data-x="9500" data-y="-500" data-z="-1000" data-rotate="0" data-scale="2">
+		<h1>Размер поколений Heap и PermGen</h1>
+		<img src="pictures/heap.png" style="height: 99%">
+	</div>
+	<div id="overviewMemMap" class="step" data-x="9500" data-y="-500" data-z="-1000" data-rotate="90" data-scale="2">
+	</div>
+
+	<div id="MemPermGen" class="step slide" data-x="11000" data-y="-1000" data-z="-1000" data-rotate="0" data-scale="1">
+		<q><span class="blue" style="font-size: 40px">Permanent Generation</span> в <span class="red">HotSpot</span> JVM</q>
+		<br/>
+		<span class="blue">PermGen</span> содержит в себе:
+		<li>Метаданные классов</li>
+		<li>Сами классы</li>
+		<li>Интернированные строки(строковой пул)</li>
+	</div>
+
+	<div id="MemPermGenProblems" class="step slide" data-x="12000" data-y="-1000" data-z="-1000" data-rotate="0"
+		 data-scale="1">
+		<q><span class="red" style="font-size: 35px">java.lang.OutOfMemoryError: PermGen space</span></q>
+		<br/>
+		Возможные причины:
+		<li>Библиотеки явно генерирующие байткод(загрузка новых классов)</li>
+		<li>Библиотеки неявно генерирующие байткод(Hibernate, Spring, AspectJ)</li>
+		<li>Java Reflection API</li>
+		<li>Serialization и RMI используют рефлексию</li>
+		<li>Groovy замыкания</li>
+		<li>Переполнения строкового пула</li>
+		<br/>
+	</div>
+
+	<div id="MemPermGenGroovy" class="step slide" data-x="11000" data-y="0" data-z="-1000" data-rotate="0"
+		 data-scale="1">
+		<q><span class="green">Groovy closure</span></q>
+
+		<div class="code">
+	<pre class="brush: java;gutter:false">
+def hello = {name -> println "Hello $name!"}
+names = ['Alex', 'Bill', 'Jon']
+names.each { hello(it) }
+/*
+Hello Alex!
+Hello Bill!
+Hello Jon!
+*/</pre>
+		</div>
+		Groovy замыкания - это круто!<br/>
+		<img src="pictures/groovydukemed.jpg" style="height: 36%"><br/>
+		Но в результате будут созданы несколько классов в <span class="blue">Permanent Generation</span>!
+	</div>
+
+	<div id="MemPermGenStringIntern" class="step slide" data-x="12000" data-y="0" data-z="-1000" data-rotate="0"
+		 data-scale="1">
+		<q>Строковый пул, на заметку</q>
+		<br/>
+		Как можно сравнить две строки?
+		<div class="code">
+		<pre class="brush: java;gutter:false">
+public class StringInternTest {
+	public static void main(String[] args) {
+		//Аллоцируется в PermGen
+		String a = "string";
+
+		//аллоцируется в Heap
+		StringBuilder b = new StringBuilder("str").append("ing");
+
+		//дорогая операция
+		System.out.println(a.equals(c));// true
+
+
+		String c = b.toString();
+		System.out.println(a==c);// false
+
+		//быстрая операция
+		System.out.println(a==c.intern());// true
+	}
+}</pre>
+		</div>
+		<a href="gc-3-algorytm-serial-1.html">далее&nbsp;&gt;&nbsp;</a>
+	</div>
+
+	<div id="overview" class="step" data-x="5000" data-y="0" data-scale="12">
+	</div>
+</div>
+
+<script src="resources/bartaz-impress.js-0.5.3-1/js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+
+

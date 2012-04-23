@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=1024"/>
+	<title>Garbage collector and memory management in HotSpot JVM | by Zolotaryov Roman</title>
+	<meta name="author" content="Roman Zolotaryov"/>
+	<link href="resources/bartaz-impress.js-0.5.3-1/css/impress-demo.css" rel="stylesheet"/>
+
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+		version of this presentation.</p>
+
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="500">
+
+
+	<div id="title" class="step" data-x="-2000" data-y="2000" data-rotate="0" data-scale="4">
+		<h1><b class="green">Garbage Collector</b> <br/>и управление памятью</h1>
+		<q>в <b class="red">HotSpot</b> JVM</q>
+		<br/><br/>
+		<p class="footnote">Роман Золотарев</p>
+	</div>
+
+	<div id="gcAlgStart" class="step slide" data-x="1000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Алгоритмы сборки мусора в <span class="green">GC</span></q>
+		<br/>
+		<img src="pictures/dukClean.png" style="height: 40%; margin-left: 30%; margin-top: 20%">
+	</div>
+	<div id="gcAlg1" class="step slide" data-x="2000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Алгоритмы сборки мусора в <span class="green">GC</span></q>
+		<br/>
+		Основные алгоритмы сборки мусора в JDK6:
+		<li>SerialGC</li>
+		<li>ParallelGC/ParallelCompactingGC</li>
+		<li>ConcMarkSweepGC</li>
+		<br/>
+		Экспериментальный начиная с v6u26:
+		<li>G1 (garbage first)</li>
+	</div>
+	<div id="gcAlg2" class="step slide" data-x="3000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span></q><br/>
+		<span>Особенности</span>
+		<li>По умолчанию используется в client-mode</li>
+		<li>stop-the-world модель работы</li>
+		<li>вне зависимости от числа процессоров выполняется в одном потоке</li>
+		<br/>
+		Флаг активации:
+		&nbsp;&nbsp;&nbsp;&nbsp;<i>-XX:+UseSerialGC</i>
+	</div>
+
+	<div id="gcAlgStep1" class="step slide" data-x="4000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC1_min.png" style="height: 70%">
+	</div>
+
+	<div id="gcAlgStep2" class="step slide" data-x="5000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC2_min.png" style="height: 70%">
+	</div>
+
+	<div id="gcAlgStep3" class="step slide" data-x="6000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC3_min.png" style="height: 70%">
+	</div>
+
+	<div id="gcAlgStep4" class="step slide" data-x="7000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC4_min.png" style="height: 70%">
+	</div>
+	<div id="gcAlgStep5" class="step slide" data-x="8000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC5_min.png" style="height: 70%">
+
+	</div>
+	<div id="gcAlgStep6" class="step slide" data-x="9000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<br/>
+		Особенности minor collection:
+		<li>Очень быстрая</li>
+		<li>Скорость зависит от числа выживших объектов</li>
+		<li>Используется почти во всех алгоритмах</li>
+		<br/><br/><br/><br/><br/><br/><br/><br/>
+		<a href="gc-3-algorytm-serial-2.html">далее</a>
+	</div>
+
+
+
+	<div id="overview" class="step" data-x="5000" data-y="0" data-scale="12">
+	</div>
+</div>
+
+<script src="resources/bartaz-impress.js-0.5.3-1/js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+
+

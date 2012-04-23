@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=1024"/>
+	<title>Garbage collector and memory management in HotSpot JVM | by Zolotaryov Roman</title>
+	<meta name="author" content="Roman Zolotaryov"/>
+
+	<link href="resources/bartaz-impress.js-0.5.3-1/css/impress-demo.css" rel="stylesheet"/>
+
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+		version of this presentation.</p>
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="500">
+	<div id="overview" class="step" data-x="0000" data-y="0" data-scale="7">
+	</div>
+
+<div id="title" class="step" data-x="-2000" data-y="0" data-rotate="0" data-scale="4">
+	<h1><b class="green">Garbage Collector</b> <br/>и управление памятью</h1>
+	<q>в <b class="red">HotSpot</b> JVM</q>
+	<br/><br/>
+
+	<p class="footnote">Роман Золотарев</p>
+</div>
+
+<div id="overviewPlan" class="step" data-x="2000" data-y="-1200" data-scale="3"
+	 data-transition-duration="1000"></div>
+
+<div id="plan" class="step skip" data-x="2500" data-y="-2000" data-scale="3" style="opacity: 1;">
+	Краткое содержание
+</div>
+<div id="jvm" class="step" data-x="2500" data-y="-1700" data-scale="2" data-transition-duration="500">
+	<li>Про <span class="red">HotSpot</span> JVM</li>
+</div>
+<div id="memory" class="step" data-x="2500" data-y="-1550" data-scale="2">
+	<li>Взгляд на память глазами <span class="green">GC</span></li>
+</div>
+<div id="gc" class="step" data-x="2500" data-y="-1400" data-scale="2">
+	<li>Алгоритмы сборки мусора</li>
+</div>
+<div id="monitor" class="step" data-x="2500" data-y="-1250" data-scale="2">
+	<li>Мониторинг</li>
+</div>
+<div id="tuning" class="step" data-x="2500" data-y="-950" data-scale="2">
+	<li>Тюнинг</li> <br/>
+	<a href="gc-1-hotspot.html">пуск</a>
+</div>
+
+</div>
+
+<script src="resources/bartaz-impress.js-0.5.3-1/js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+
+

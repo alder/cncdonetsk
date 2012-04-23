@@ -1,0 +1,286 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=1024"/>
+	<title>Garbage collector and memory management in HotSpot JVM | by Zolotaryov Roman</title>
+	<meta name="author" content="Roman Zolotaryov"/>
+	<link href="resources/bartaz-impress.js-0.5.3-1/css/impress-demo.css" rel="stylesheet"/>
+
+	<script src="resources/jquery/jquery.min.js" type="text/javascript"></script>
+	<script src="resources/highcharts-2.2.1/js/highcharts.js" type="text/javascript"></script>
+	<script type="text/javascript" src="resources/presenatationCharts.js"></script>
+
+	<script type="text/javascript" src="resources/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	<script type="text/javascript" src="resources/syntaxhighlighter_3.0.83/scripts/shBrushJava.js"></script>
+	<link href="resources/syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css"/>
+	<link href="resources/syntaxhighlighter_3.0.83/styles/shThemeEclipse.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.all();
+	</script>
+
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+		version of this presentation.</p>
+
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="500">
+
+
+	<div id="title" class="step" data-x="-2000" data-y="2000" data-rotate="0" data-scale="4">
+		<h1><b class="green">Garbage Collector</b> <br/>и управление памятью</h1>
+		<q>в <b class="red">HotSpot</b> JVM</q>
+		<br/><br/>
+		<p class="footnote">Роман Золотарев</p>
+	</div>
+
+	<div id="gcAlgStart" class="step slide" data-x="1000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Алгоритмы сборки мусора в <span class="green">GC</span></q>
+		<br/>
+		<img src="pictures/dukClean.png" style="height: 40%; margin-left: 30%; margin-top: 20%">
+	</div>
+	<div id="gcAlg1" class="step slide" data-x="2000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Алгоритмы сборки мусора в <span class="green">GC</span></q>
+		<br/>
+		Основные алгоритмы сборки мусора в JDK6:
+		<li>SerialGC</li>
+		<li>ParallelGC</li>
+		<li>ConcMarkSweepGC</li>
+		<br/>
+		Экспериментальный начиная с v6u26:
+		<li>G1 (garbage first)</li>
+	</div>
+	<div id="gcAlg2" class="step slide" data-x="3000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span></q><br/>
+		<span>Особенности</span>
+		<li>По умолчанию используется в client-mode</li>
+		<li>stop-the-world модель работы</li>
+		<li>вне зависимости от числа процессоров выполняется в одном потоке</li>
+		<br/>
+		Флаг активации:
+		&nbsp;&nbsp;&nbsp;&nbsp;<i>-XX:+UseSerialGC</i>
+	</div>
+
+	<div id="gcAlgStep1" class="step slide" data-x="4000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC1.png" style="height: 90%">
+	</div>
+
+	<div id="gcAlgStep2" class="step slide" data-x="5000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC2.png" style="height: 90%">
+	</div>
+
+	<div id="gcAlgStep3" class="step slide" data-x="6000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC3.png" style="height: 90%">
+	</div>
+
+	<div id="gcAlgStep4" class="step slide" data-x="6000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC4.png" style="height: 90%">
+	</div>
+	<div id="gcAlgStep5" class="step slide" data-x="6000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, minor collection</q>
+		<img src="pictures/SerialGC5.png" style="height: 90%">
+	</div>
+
+	<div id="gcAlgMSC1" class="step slide" data-x="7000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, <span style="font-size: 40px">FullGC (mark-sweep-compact)</span></q><br/><br/>
+		<img src="pictures/MSC1.png" style="height: 25%">
+	</div>
+
+	<div id="gcAlgMSC2" class="step slide" data-x="8000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, <span style="font-size: 40px">FullGC (mark-sweep-compact)</span></q><br/><br/>
+		<img src="pictures/MSC2.png" style="height: 90%">
+	</div>
+
+	<div id="gcAlgMSC3" class="step slide" data-x="9000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, <span style="font-size: 40px">FullGC (mark-sweep-compact)</span></q><br/><br/>
+		В результате уплотнения <br/>
+		добавление нового объекта в <span class="green">OldGen</span> происходит очень быстро (алгоритм bump-the-pointer)
+	</div>
+
+	<div id="gcAlgSerialConclusion" class="step slide" data-x="10000" data-y="1000" data-z="-2000" data-rotate="0"
+		 data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, выводы</q><br/>
+		Подходит для :
+		<li>Приложений запущенных в client-mode</li>
+		<li>При размере Heap до 200 Mb</li>
+		<br/>
+		Недостатки:
+		<li>Нет возможности использовать всю мощь многопроцессорности</li>
+		<li>Stop-the-world паузы могуть быть весьма ощутимы</li>
+	</div>
+
+	<div id="gcParallelStart" class="step slide" data-x="1000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Parallel</span><span class="green">GC</span></q><br/>
+		Особенности:
+		<li>Использует те же алгоритмы, что и <span class="blue">Serial</span><span class="green">GC</span></li>
+		<li>Может запускаться в нескольких потоках</li>
+		<li>Для сборки в OldGen имеет альтернативный алгоритм Parallel Compacting</li>
+		<li>По умолчанию включен в <span class="blue">server-mode</span></li>
+		<br/>
+		Включение:	<i>-XX:+UseParallelGC</i><br/>
+		Включение Parallel Compacting:	<i>-XX:+UseParallelOldGC</i><br/>
+		Колличество потоков: <i>-XX:ParallelGCThreads=&lt;n&gt;</i><br/>
+	</div>
+
+	<div id="gcParallel1" class="step slide" data-x="2000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>
+			vs
+			<span class="blue">Parallel</span><span class="green">GC</span></q><br/>
+		<img src="pictures/ParallelGC.png" style="height: 80%; margin-left: 25%">
+	</div>
+
+	<div id="gcParallel2" class="step slide" data-x="3000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Parallel Compacting Collector</q> <br/>
+		<b>Marking phase</b><br/>
+		<li>Память разделяется на логические регионы</li>
+		<li>В отдельном потоке определяется размер живых объектов и сопоставляется региону</li><br/>
+		<b>Summary phase</b><br/>
+		<li>Изучение плотности регионов</li>
+		<li>Разделение регионов по плотности</li><br/>
+		<b>Compact phase</b><br/>
+		<li>Компановка только не плотных регионов</li>
+	</div>
+
+	<div id="gcParallel3" class="step slide" data-x="4000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Parallel Compacting Collector</q><br/>
+		Parallel Compacting Collector оперирует регионами!<br/><br/>
+		Рекомендован для использования при размере Heap более 4Gb
+	</div>
+
+	<div id="gcCMSStart" class="step slide" data-x="1000" data-y="3000" data-z="-2000" data-scale="1">
+		<q>Concurrent Mark Sweep (<span class="blue">CMS</span>)</q><br/>
+		Особенности:
+		<li>Минимум stop-the-world пауз</li>
+		<li>Бoльшую часть работы выполняется одновременно с приложением</li>
+		<li>Также основан на поколениях</li>
+		<li>Работа с <span class="red">YoungGen</span> аналогична <span class="blue">ParallelGC</span></li>
+		<li>Дольше работает, влияет на производительность</li>
+		<br/>
+		Включение:	<i>-XX:+UseConcMarkSweepGC</i><br/>
+	</div>
+
+	<div id="gcCMS1" class="step slide" data-x="2000" data-y="3000" data-z="-2000" data-scale="1">
+		<q><span class="blue">CMS</span>, <span class="green">OldGen</span></q>
+		<div style="font-size: 26px; line-height: 29px; margin-top: 8px">
+			<b>initial mark</b><br/>
+			<li>Короткая stop-the-world пауза</li>
+			<li>Поиск корневых ссылок на объекты(в стеке потоков приложения)</li>
+			<br/>
+
+			<b>concurrent mark</b><br/>
+			<li>Выполняется параллельно с приложением</li>
+			<li>Поиск достижимых объектов из корневых ссылок</li>
+			<br/>
+
+			<b>remark</b><br/>
+			<li>Короткая stop-the-world пауза</li>
+			<li>Окончательная перепроверка помеченных объектов</li>
+			<li>Выполняется в нескольких потоках</li>
+			<br/>
+
+			<b>concurrent sweep</b><br/>
+			<li>Удаление мусора в параллельном режиме</li>
+		</div>
+	</div>
+
+	<div id="gcCMS2" class="step slide" data-x="3000" data-y="3000" data-z="-2000" data-scale="1">
+		<q><span class="blue">MSC</span> vs <span class="blue">CMS</span></q>
+		<img src="pictures/CMS.png" style="height: 90%; margin-left: 10%"/>
+	</div>
+
+	<div id="gcCMS3" class="step slide" data-x="4000" data-y="3000" data-z="-2000" data-scale="1">
+		<q><span class="blue">CMS</span>, необходимо учитывать</q><br/>
+		<li>Разделяет ресурсы с приложением</li>
+		<li>Лучше использовать на железе с более 2-х CPU </li>
+		<li>Не уплотняет <span class="green">OldGen</span></li>
+		<li>Использует free-list для хранения аддресов участков свободной памяти</li>
+		<li>Переход в MSC, если нет достаточного свободного места для нового объекта</li>
+		<li>Стоит использовать, если ваше приложение чувствительно к паузам</li>
+	</div>
+
+	<div id="gcG1" class="step slide" data-x="1000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, большие надежды</q><br/>
+		Особенности:
+		<li>Вся память разбита на регионы(1Mb по умолчанию)</li>
+		<li>Сборка производится эвакуацией регионов</li>
+		<li>Лоялен к большим размерам Heap</li>
+		<li>Отсутствует фрагментация</li>
+		<li>Отсутствует FullGC</li>
+		<li>Предсказуемость</li>
+		<li>Доступен в <span class="red">HotSpot</span> JVM с 6u26</li>
+		Включение:	<i>-XX:+UseG1GC</i><br/>
+	</div>
+
+	<div id="gcG11" class="step slide" data-x="2000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="red">YoungGen</span></q><br/>
+		<img src="pictures/G1_1.png"  style="height: 90%"/>
+	</div>
+
+	<div id="gcG12" class="step slide" data-x="3000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="red">YoungGen</span></q><br/>
+		Особенности:
+		<li>Вся эвакуация регионов</li>
+		<li>Быстрое выделение памяти, сдвиг указателя</li>
+		<li>Размер молодого поколения "резиновый"</li>
+	</div>
+
+	<div id="gcG13" class="step slide" data-x="4000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="red">YoungGen</span></q><br/>
+		<img src="pictures/G1_YG.png"  style="height: 90%"/>
+	</div>
+
+	<div id="gcG14" class="step slide" data-x="5000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="green">OldGen</span></q><br/>
+		Особенности:
+		<li>Mark фаза над всеми живыми объектами(фоновый режим)</li>
+		<li>Подсчет всех живых объектов по регионам</li>
+		<li>Эвакуация регионов с наименьшим колличеством живых объектов</li>
+		<li>Сборка происходит постоянно</li>
+		<li>Запуск <span class="red">FullGC</span> только при не хватке ресурсов</li>
+
+
+	</div>
+
+	<div id="gcG15" class="step slide" data-x="6000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="red">YoungGen</span></q><br/>
+		<img src="pictures/G1OG.png"  style="height: 90%"/>
+	</div>
+
+	<div id="gcG16" class="step slide" data-x="7000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, предсказуемость</q><br/>
+		<li>Задаваемые желаемые паузы</li>
+		<i>-XX:MaxGCPauseMillis=200</i><br/>
+		<i>-XX:GCPauseIntervalMillis=500</i><br/><br/>
+		<li>Автоматическая настройка размеров очищаемой памяти в зависимости от желаемой паузы</li>
+	</div>
+
+	<div id="gcG17" class="step slide" data-x="8000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, выводы</q><br/>
+		<li>Главныйы конкурент <span class="blue">CMS</span></li>
+		<li>Отсутствие фрагментации</li>
+		<li>Не ограничен размером heap</li>
+		<li>Есть куда рости</li>
+
+		<br/><br/><br/> <br/><br/><br/><br/>
+		<a href="gc-3-algorytm.html">далее&nbsp;&gt;&nbsp;</a>
+	</div>
+
+	<div id="overview" class="step" data-x="5000" data-y="0" data-scale="12">
+	</div>
+</div>
+
+<script src="resources/bartaz-impress.js-0.5.3-1/js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+
+

@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=1024"/>
+	<title>Garbage collector and memory management in HotSpot JVM | by Zolotaryov Roman</title>
+	<meta name="author" content="Roman Zolotaryov"/>
+	<link href="resources/bartaz-impress.js-0.5.3-1/css/impress-demo.css" rel="stylesheet"/>
+
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+		version of this presentation.</p>
+
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="500">
+	<div id="overview" class="step" data-x="0" data-y="2000" data-scale="8">
+	</div>
+
+	<div id="title" class="step" data-x="-2000" data-y="1500" data-rotate="0" data-scale="4">
+		<h1><b class="green">Garbage Collector</b> <br/>и управление памятью</h1>
+		<q>в <b class="red">HotSpot</b> JVM</q>
+		<br/><br/>
+		<p class="footnote">Роман Золотарев</p>
+	</div>
+
+	<div id="gcAlgMSC1" class="step slide" data-x="1000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, <span style="font-size: 40px">FullGC (mark-sweep-compact)</span></q><br/><br/>
+		<img src="pictures/MSC1.png" style="height: 25%">
+	</div>
+
+	<div id="gcAlgMSC2" class="step slide" data-x="2000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, <span style="font-size: 40px">FullGC (mark-sweep-compact)</span></q><br/>
+		<img src="pictures/MSC2.png" style="height: 90%">
+	</div>
+
+	<div id="gcAlgMSC3" class="step slide" data-x="3000" data-y="1000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, <span style="font-size: 40px">FullGC (mark-sweep-compact)</span></q><br/><br/>
+		В результате уплотнения <br/>
+		добавление нового объекта в <span class="green">OldGen</span> происходит очень быстро (алгоритм bump-the-pointer)
+	</div>
+
+	<div id="gcAlgSerialConclusion" class="step slide" data-x="4000" data-y="1000" data-z="-2000" data-rotate="0"
+		 data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>, выводы</q><br/>
+		Подходит для :
+		<li>Приложений запущенных в client-mode</li>
+		<li>При размере Heap до 200 Mb</li>
+		<br/>
+		Недостатки:
+		<li>Нет возможности использовать всю мощь многопроцессорности</li>
+		<li>Stop-the-world паузы могуть быть весьма ощутимы</li>
+	</div>
+
+	<div id="gcParallelStart" class="step slide" data-x="1000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Parallel</span><span class="green">GC</span></q><br/>
+		Особенности:
+		<li>Использует те же алгоритмы, что и <span class="blue">Serial</span><span class="green">GC</span></li>
+		<li>Может запускаться в нескольких потоках</li>
+		<li>Для сборки в OldGen имеет альтернативный алгоритм Parallel Compacting</li>
+		<li>По умолчанию включен в <span class="blue">server-mode</span></li>
+		<br/>
+		Включение:	<i>-XX:+UseParallelGC</i><br/>
+		Включение Parallel Compacting:	<i>-XX:+UseParallelOldGC</i><br/>
+		Колличество потоков: <i>-XX:ParallelGCThreads=&lt;n&gt;</i><br/>
+	</div>
+
+	<div id="gcParallel1" class="step slide" data-x="2000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q><span class="blue">Serial</span><span class="green">GC</span>
+			vs
+			<span class="blue">Parallel</span><span class="green">GC</span></q><br/>
+		<img src="pictures/ParallelGC_min.png" style="height: 70%; margin-left: 25%">
+	</div>
+
+	<div id="gcParallel2" class="step slide" data-x="3000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Parallel Compacting Collector</q> <br/>
+		<b>Marking phase</b><br/>
+		<li>Память разделяется на логические регионы</li>
+		<li>В отдельном потоке определяется размер живых объектов и сопоставляется региону</li><br/>
+		<b>Summary phase</b><br/>
+		<li>Изучение плотности регионов</li>
+		<li>Разделение регионов по плотности</li><br/>
+		<b>Compact phase</b><br/>
+		<li>Компановка только не плотных регионов</li>
+	</div>
+
+	<div id="gcParallel3" class="step slide" data-x="4000" data-y="2000" data-z="-2000" data-rotate="0" data-scale="1">
+		<q>Parallel Compacting Collector</q><br/>
+		Parallel Compacting Collector оперирует регионами!<br/><br/>
+		Рекомендован для использования при размере Heap более 4Gb
+		<br/><br/><br/><br/><br/><br/><br/><br/>
+		<a href="gc-3-algorytm-cms.html">далее</a>
+	</div>
+
+
+</div>
+
+<script src="resources/bartaz-impress.js-0.5.3-1/js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+
+

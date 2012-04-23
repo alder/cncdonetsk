@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GDG Donetsk - начало"
-categories: [announcement]
+categories: [meeting]
 author: Артем Дударев
 author_url: 
 ---
@@ -31,8 +31,3 @@ h2. Темы вольных обсуждений
 * Что хочу слышать на будущих встречах GDG/GTUG, что могу рассказать.
 
 Зарегистрируйтесь, чтобы знать сколько участников ожидать. Зарегистрировавшиеся зайдут в конференц-зал первыми. Если при регистрации допустите ошибку - поправьте "форму":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdHhhTkFnVHJVSTZ2R095RGI5eVJmTnc#gid=0 (доступ есть у всех участников "группы":https://groups.google.com/forum/#!forum/cnc-donetsk).
-
-
-<div style="margin-top: 30px">
-<a href="/gdg-registration.html" style="font-size: 18px;">Регистрация</a>
-</div>

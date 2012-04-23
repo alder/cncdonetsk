@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Второй поток (классическая встреча)"
-categories: [announcement]
+categories: [meeting]
 author: Артем Дударев
 author_url: 
 ---
@@ -12,10 +12,5 @@ author_url:
 
 h2. Доклады
 
-* (ориентировочно) Roman Zolotaryov "Garbage collector and memory management in HotSpot JVM"
+* Roman Zolotaryov "Garbage collector and memory management in HotSpot JVM":/reports/2012-04-21/GC-memory-cnc-Zolotaryov/gc-index.html
 * Щигров Ден "Простая физика Box2d" 
-
-h2. Темы для вольных обсуждений
-
-* Тренировки докладов перед майской встречей lambda-donetsk.
-* ...

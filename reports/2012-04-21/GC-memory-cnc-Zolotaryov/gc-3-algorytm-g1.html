@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=1024"/>
+	<title>Garbage collector and memory management in HotSpot JVM | by Zolotaryov Roman</title>
+	<meta name="author" content="Roman Zolotaryov"/>
+	<link href="resources/bartaz-impress.js-0.5.3-1/css/impress-demo.css" rel="stylesheet"/>
+
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+		version of this presentation.</p>
+
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="500">
+	<div id="overview" class="step" data-x="0" data-y="4000" data-scale="8">
+	</div>
+
+	<div id="title" class="step" data-x="-2000" data-y="4000" data-rotate="0" data-scale="4">
+		<h1><b class="green">Garbage Collector</b> <br/>и управление памятью</h1>
+		<q>в <b class="red">HotSpot</b> JVM</q>
+		<br/><br/>
+		<p class="footnote">Роман Золотарев</p>
+	</div>
+
+	<div id="gcG1" class="step slide" data-x="1000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, большие надежды</q><br/>
+		Особенности:
+		<li>Вся память разбита на регионы(1Mb по умолчанию)</li>
+		<li>Сборка производится эвакуацией регионов</li>
+		<li>Лоялен к большим размерам Heap</li>
+		<li>Отсутствует фрагментация</li>
+		<li>Отсутствует FullGC</li>
+		<li>Предсказуемость</li>
+		<li>Доступен в <span class="red">HotSpot</span> JVM с 6u26</li>
+		Включение:	<i>-XX:+UseG1GC</i><br/>
+	</div>
+
+	<div id="gcG11" class="step slide" data-x="2000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="red">YoungGen</span></q><br/>
+		<img src="pictures/G1_1_min.png"  style="height: 80%"/>
+	</div>
+
+	<div id="gcG12" class="step slide" data-x="3000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="red">YoungGen</span></q><br/>
+		Особенности:
+		<li>Вся эвакуация регионов</li>
+		<li>Быстрое выделение памяти, сдвиг указателя</li>
+		<li>Размер молодого поколения "резиновый"</li>
+	</div>
+
+	<div id="gcG13" class="step slide" data-x="4000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="red">YoungGen</span></q><br/>
+		<img src="pictures/G1_YG_min.png"  style="height: 75%"/>
+	</div>
+
+	<div id="gcG14" class="step slide" data-x="5000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="green">OldGen</span></q><br/>
+		Особенности:
+		<li>Mark фаза над всеми живыми объектами(фоновый режим)</li>
+		<li>Подсчет всех живых объектов по регионам</li>
+		<li>Эвакуация регионов с наименьшим колличеством живых объектов</li>
+		<li>Сборка происходит постоянно</li>
+		<li>Запуск <span class="red">FullGC</span> только при не хватке ресурсов</li>
+
+
+	</div>
+
+	<div id="gcG15" class="step slide" data-x="6000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, сборка мусора в <span class="green">OldGen</span></q><br/>
+		<img src="pictures/G1OG_min.png"  style="height: 75%"/>
+	</div>
+
+	<div id="gcG16" class="step slide" data-x="7000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, предсказуемость</q><br/>
+		<li>Задаваемые желаемые паузы</li>
+		<i>-XX:MaxGCPauseMillis=200</i><br/>
+		<i>-XX:GCPauseIntervalMillis=500</i><br/><br/>
+		<li>Автоматическая настройка размеров очищаемой памяти в зависимости от желаемой паузы</li>
+	</div>
+
+	<div id="gcG17" class="step slide" data-x="8000" data-y="4000" data-z="-2000" data-scale="1">
+		<q><span>G1</span>, выводы</q><br/>
+		<li>Главныйы конкурент <span class="blue">CMS</span></li>
+		<li>Отсутствие фрагментации</li>
+		<li>Не ограничен размером heap</li>
+		<li>Есть куда рости</li>
+
+		<br/><br/><br/> <br/><br/><br/><br/>
+		<a href="gc-4-monitoring-tuning.html">далее&nbsp;&gt;&nbsp;</a>
+	</div>
+
+
+</div>
+
+<script src="resources/bartaz-impress.js-0.5.3-1/js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+
+
