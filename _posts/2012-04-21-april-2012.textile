@@ -12,5 +12,5 @@ author_url:
 
 h2. Доклады
 
-* Roman Zolotaryov "Garbage collector and memory management in HotSpot JVM":/reports/2012-04-21/GC-memory-cnc-Zolotaryov/gc-tmp.html
+* Roman Zolotaryov "Garbage collector and memory management in HotSpot JVM":/reports/2012-04-21/GC-memory-cnc-Zolotaryov/gc-index.html
 * Щигров Ден "Простая физика Box2d" 
