@@ -6,28 +6,40 @@ author: Артем Дударев
 author_url: 
 ---
 
-Место: г. Донецк, бизнес-центр «Северная Пальмира», ул. Горячкина, 26 (рядом с Амстором на Ильича), 1-й этаж — конференц-зал Ciklum
-Время: с 12:00 в субботу 21 апреля 2012 г.
-Координаторы: Артем Дударев, Роман Богдзиевич.
-
 <a href="https://plus.google.com/118042470475449475763/posts"><img src="/img/gdg_donetsk_logo.png"></a>
 
 h2. При поддержке
 
 <a href="http://ciklum.com/"><img src="/img/CiklumLogo.jpg"></a>
 
-h2. Доклады
+h2. О GDG. О планах.
 
-* Роман Богдзиевич "О GDG. О поездке на GDD в Москву. О планах."
-* Сергей Клейменов "Обзор средств разработки 3D-игр под Android."
-* Артем Дударев "Сделать расширение для Google Chrome просто. Mapjumper."
-* ...
+h3. Роман Богдзиевич
 
-h2. Темы вольных обсуждений
+* "Страница группы в Google+":https://plus.google.com/118042470475449475763/posts
+* "gdg.dn.ua":http://gdg.dn.ua
+* "@gdgdonetsk":http://twitter.com/gdgdonetsk
 
-* Google Hangout с GTUG/GDG Kyiv/Lviv.
-* Представление себя
-* Что-то одно связанное с Google, что хотел бы упомянуть, например: лайфхак для поиска, любимое Android-приложение, не широко известная возможность какого-нибудь сервиса...
-* Что хочу слышать на будущих встречах GDG/GTUG, что могу рассказать.
+h2(next).  Обзор средств разработки 3D-игр под Android
 
-Зарегистрируйтесь, чтобы знать сколько участников ожидать. Зарегистрировавшиеся зайдут в конференц-зал первыми. Если при регистрации допустите ошибку - поправьте "форму":https://docs.google.com/spreadsheet/ccc?key=0Ar7fZWxISpOKdHhhTkFnVHJVSTZ2R095RGI5eVJmTnc#gid=0 (доступ есть у всех участников "группы":https://groups.google.com/forum/#!forum/cnc-donetsk).
+h3. Сергей Клейменов
+
+<iframe src="https://docs.google.com/presentation/embed?id=1sFtTHOqgd1EV3K-F2vClVl7JwkteHk_uSESLp8Jzttw&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+h2(next). Сделать расширение для Google Chrome просто. Mapjumper.
+
+h3. Артем Дударев
+
+Слайды были в виде вкладок в Chrome. Вот ссылки на страницы:
+
+* "http://dudarev.com/blog/data-liberation-saas-design-pattern/":http://dudarev.com/blog/data-liberation-saas-design-pattern/
+* "http://www.youtube.com/watch?v=fN2_eT0cEl0":http://www.youtube.com/watch?v=fN2_eT0cEl0
+* "http://www.openstreetmap.org/?lon=37.83324&lat=48.00139&zoom=18&mlat=48.00139&mlon=37.83324":http://www.openstreetmap.org/?lon=37.83324&lat=48.00139&zoom=18&mlat=48.00139&mlon=37.83324
+* "http://dudarev.github.com/mapjumper/":http://dudarev.github.com/mapjumper/
+* "https://github.com/dudarev/mapjumper":https://github.com/dudarev/mapjumper
+* "http://www.google.com/analytics/":http://www.google.com/analytics/
+* "http://dudarev.com/wiki/Chrome.html":http://dudarev.com/wiki/Chrome.html
+
+Еще упоминали:
+
+* "Advanced REST client Application":https://chrome.google.com/webstore/detail/hgmloofddffdnphfgcellkdfbfbjeloo
