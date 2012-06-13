@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Июньская встреча"
+categories: [announcement]
+author: Pavel Reznikov
+author_url: 
+---
+
+Место: г. Донецк, Артема 110, кофейня "Изба-читальня"
+Время: с 12:00 в субботу 16 июня 2012 г.
+
+
+h2. Доклады
+
+* Vadim Mirgorod - Backbone.JS + jQueryMobile и немного о PhoneGap
+* Pavel Reznikov - в дополнение к backbone.js - пару слов о knockout.js
+* Alex Litovchenko - о различиях в платформах iOS и Android
+* Igor Afonov - про мониторинг
