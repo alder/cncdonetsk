@@ -14,5 +14,4 @@ h2. Доклады
 
 * Vadim Mirgorod - Backbone.JS + jQueryMobile и немного о PhoneGap
 * Pavel Reznikov - в дополнение к backbone.js - пару слов о knockout.js
-* Alex Litovchenko - о различиях в платформах iOS и Android
 * Igor Afonov - про мониторинг
