@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Июльская встреча"
+categories: [announcement]
+author: Pavel Reznikov
+author_url: 
+---
+
+Место: г. Донецк, Артема 110, кофейня "Изба-читальня"
+Время: с 12:00 в субботу 14 июль 2012 г.
+
+
+h2. Доклады
+
+You? Maybe you? You? Or You?

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Июньская встреча"
-categories: [announcement]
+categories: [meeting]
 author: Pavel Reznikov
 author_url: 
 ---
@@ -10,8 +10,10 @@ author_url:
 Время: с 12:00 в субботу 16 июня 2012 г.
 
 
-h2. Доклады
+h2. Поговорили о
 
 * Vadim Mirgorod - Backbone.JS + jQueryMobile и немного о PhoneGap
 * Pavel Reznikov - в дополнение к backbone.js - пару слов о knockout.js
 * Igor Afonov - про мониторинг
+
+P.S. Присылайте доклады - выложу
