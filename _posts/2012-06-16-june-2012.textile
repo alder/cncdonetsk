@@ -14,6 +14,6 @@ h2. Поговорили о
 
 * Vadim Mirgorod - Backbone.JS + jQueryMobile и немного о PhoneGap
 * Pavel Reznikov - в дополнение к backbone.js - пару слов о knockout.js
-* Igor Afonov - про мониторинг
+* Igor Afonov - про мониторинг - <a href="https://speakerdeck.com/u/iafonov/p/real-time-application-monitoring">слайды доклада</a>
 
 P.S. Присылайте доклады - выложу
