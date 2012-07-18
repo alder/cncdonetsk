@@ -6,10 +6,5 @@ author: Pavel Reznikov
 author_url: 
 ---
 
-Место: г. Донецк, Артема 110, кофейня "Изба-читальня"
-Время: с 12:00 в субботу 21 июля 2012 г.
+Лекция ""Искусство новых технологий":http://izolyatsia.org/ru/projects/23/167/obrazovatjelnaja-programma-v-ramkah-rjezidjenciij-2012/" в "Изоляции":http://izolyatsia.org/.
 
-
-h2. Доклады
-
-You? Maybe you? You? Or You?
