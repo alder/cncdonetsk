@@ -41,6 +41,8 @@ h2. Другие IT-сообщества Донецка
 * "Donetsk QA Community":https://groups.google.com/forum/#!forum/qa-donetsk
 * "OpenStreetMap Donetsk":https://groups.google.com/forum/#!forum/osm-donetsk
 
+* "Izo Lab":http://www.facebook.com/fablab.ua
+* "Cherdak":http://cherdak-club.blogspot.com/
 * "Donetsk .Net User Group":http://donetsk-usergroup.blogspot.com/
 * "DrupalCamp Donetsk":http://www.facebook.com/groups/drupal.donetsk/
 
