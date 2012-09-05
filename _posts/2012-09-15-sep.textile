@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Августовская встреча"
-categories: [meeting]
+title: "Сентябрьская встреча"
+categories: [announcement]
 author: Pavel Reznikov
 author_url: 
 ---
 
 Место: г. Донецк, Артема 110, кофейня "Изба-читальня"
-Время: с 12:00 в субботу 18 августа 2012 г.
+Время: с 12:00 в субботу 15 сентября 2012 г.
