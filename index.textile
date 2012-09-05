@@ -23,10 +23,6 @@ h2(announcements). Анонсы
     {% endfor %}
 </notextile>
 
-<a href="http://dn.quest.ua/GameDetails.aspx?gid=37136" target="_blank"><img src="/it-quest.gif"></a>
-
-<hr>
-
 h2(#news). Последние встречи "(extra)архив":/meetings.html
 
 <notextile>
