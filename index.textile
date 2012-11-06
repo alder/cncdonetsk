@@ -3,8 +3,6 @@ layout: home
 title: Главная
 ---
 
-<a href="http://dou.ua/calendar/2234/?from=hello-world" target="_blank"><img src="douhack.jpg"></a>
-
 h2(announcements). Анонсы
 
 <notextile>
