@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Сентябрьская встреча"
-categories: [announcement]
+categories: [meeting]
 author: Pavel Reznikov
 author_url: 
 ---
