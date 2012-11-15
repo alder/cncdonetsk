@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Ноябрьская встреча"
+categories: [announcement]
+author: Pavel Mitin 
+author_url: http://novembermeeting.blogspot.com 
+---
+
+Место: Офис GPI, г. Донецк, ул. Набережная, д. 131, кв. 50. ("на карте":http://bit.ly/SDureu)
+Время: с 12:00 в субботу 17 ноября 2012 г.
+
+h4. Доклады юбилейной встречи
+
+* "Command Query Responsibility Segregation and Event Sourcing CQRS/ES":http://www.udidahan.com/2009/12/09/clarified-cqrs "Митин Павел":http://novembermeeting.blogspot.com
+* Возможна ли жизнь без тестировщика? "Алексей Деркач":https://twitter.com/alderko 
+
