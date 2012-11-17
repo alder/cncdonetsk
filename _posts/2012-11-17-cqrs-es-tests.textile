@@ -12,6 +12,5 @@ author_url: http://novembermeeting.blogspot.com
 h4. Доклады юбилейной встречи
 
 * "Command Query Responsibility Segregation and Event Sourcing CQRS/ES":http://www.udidahan.com/2009/12/09/clarified-cqrs "Митин Павел":http://novembermeeting.blogspot.com
-* Возможна ли жизнь без тестировщика? "Алексей Деркач":https://twitter.com/alderko 
 * Application deployment with Chef. "Игорь Афонов":http://iafonov.github.com 
 
