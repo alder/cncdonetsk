@@ -11,6 +11,9 @@ author_url: http://novembermeeting.blogspot.com
 
 h4. Доклады юбилейной встречи
 
-* "Command Query Responsibility Segregation and Event Sourcing CQRS/ES":http://www.udidahan.com/2009/12/09/clarified-cqrs "Митин Павел":http://novembermeeting.blogspot.com
-* Application deployment with Chef. "Игорь Афонов":http://iafonov.github.com 
+"Command Query Responsibility Segregation and Event Sourcing CQRS/ES":http://www.udidahan.com/2009/12/09/clarified-cqrs "Митин Павел":http://novembermeeting.blogspot.com
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/15231125" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/MitinPavel/cqrs-es-15231125" title="Command Query Responsibility Segregation and Event Sourcing" target="_blank">Command Query Responsibility Segregation and Event Sourcing</a> </strong> from <strong><a href="http://www.slideshare.net/MitinPavel" target="_blank">MitinPavel</a></strong> </div>
+
+Application deployment with Chef. "Игорь Афонов":http://iafonov.github.com 
 
