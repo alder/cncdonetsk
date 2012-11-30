@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Декабрьская встреча"
+categories: [announcement]
+author: Pavel Reznikov
+---
+
+Время: с 12:00 в субботу 15 декабря 2012 г.
