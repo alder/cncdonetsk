@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ноябрьская встреча"
-categories: [announcement]
+categories: [meeting]
 author: Pavel Mitin 
 author_url: http://novembermeeting.blogspot.com 
 ---
