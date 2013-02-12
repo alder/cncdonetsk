@@ -5,23 +5,10 @@ title: Главная
 
 h2(announcements). Анонсы
 
-<notextile>
-    {% for a in site.categories.announcement reversed %}
-    <div class="announcement">
-    {% if a.title != "Announcement" %}
-      <h3>{{a.title}}</h3>
-      <p style="padding-bottom: 1em; font-weight: bold">{{a.date | date: "%Y-%m-%d" }}</p>
-    {% endif %}
-    <p>{{a.content}}</p>
-<br/>
-<a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/_posts/{{ a.date | date: "%Y-%m-%d"}}-{{ a.url | replace: '/announcement/', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
+{% include announcements.textile %}
+
+<a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/_includes/announcements.textile/_edit" target="_blank">
 <button class="btn">Редактировать</button></a>
-    </div>
-    {% if a.title != "Announcement" %}
-    <hr/>
-    {% endif %}
-    {% endfor %}
-</notextile>
 
 h2(#news). Последние встречи "(extra)архив":/meetings.html
 
