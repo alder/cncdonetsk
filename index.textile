@@ -7,7 +7,7 @@ h2(announcements). Анонсы
 
 {% include announcements.textile %}
 
-<a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/_includes/announcements.textile/_edit" target="_blank">
+<a href="https://github.com/troolee/cncdonetsk/edit/gh-pages/_includes/announcements.textile/_edit" target="_blank">
 <button class="btn">Редактировать</button></a>
 
 h2(#news). Последние встречи "(extra)архив":/meetings.html
