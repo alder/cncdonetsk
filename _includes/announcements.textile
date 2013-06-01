@@ -6,4 +6,4 @@ h3. 2013-05-18
 
 h4. Доклады
 
-...
+* Доклад на тему пиратсва, ("@quantizer":(https://twitter.com/quantizer))
