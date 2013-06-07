@@ -30,6 +30,7 @@ h3. Сильно пересекаются
 * "OpenStreetMap Donetsk":https://groups.google.com/forum/#!forum/osm-donetsk
 * "DrupalCamp Donetsk":http://www.facebook.com/groups/drupal.donetsk/
 * "Donetsk QA Community":https://groups.google.com/forum/#!forum/qa-donetsk
+* "Donetsk Lambda Club":http://lambda.dn.ua/
 
 h3. Разработка, но слабо пересекаются
 
