@@ -3,6 +3,9 @@ layout: home
 title: Главная
 ---
 
+<br>
+<a href="http://dou.ua/calendar/3689/" target="_blank"><img src="hackathon.png"></a>
+
 h2(announcements). Анонсы
 
 {% include announcements.textile %}
