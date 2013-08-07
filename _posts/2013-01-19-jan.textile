@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Январская встреча"
-categories: [announcement]
+categories: [meeting]
 author: Artem Dudarev
 ---
 

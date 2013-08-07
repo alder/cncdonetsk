@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Майская встреча"
+categories: [meeting]
+author: Artem Dudarev
+---
+
+h4. Доклады
+
+* Доклад на тему пиратства ("@quantizer":https://twitter.com/quantizer)
+
+Плата за вход: рассказ о том, что сделал в интернете, и напиток на баре. Рассказ участников о себе модерирует "@dudarev_ru":https://twitter.com/dudarev_ru (ограничение 3 минуты).
