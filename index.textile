@@ -45,8 +45,9 @@ h3. Не разработка, но о высоких технологиях и 
 * "Izo Lab":http://www.facebook.com/fablab.ua
 * "ITDonbass":http://www.facebook.com/groups/itdonbass/ (закрытая)
 * "ITDonbass.com":http://itdonbass.com/ (не путать с группой выше)
-* "Креативные мастерские":http://www.facebook.com/groups/463336053715499/
 * "Донецкие блогеры":http://www.facebook.com/groups/194728853999717/
+* "Донецкий сайтострой":http://vk.com/site_build
+* "Креативные мастерские":http://www.facebook.com/groups/463336053715499/
 
 <a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/{{ page.url | replace: '/meeting', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
 <button class="btn">Редактировать</button></a>
