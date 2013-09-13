@@ -46,8 +46,12 @@ h3. Не разработка, но о высоких технологиях и 
 * "ITDonbass":http://www.facebook.com/groups/itdonbass/ (закрытая)
 * "ITDonbass.com":http://itdonbass.com/ (не путать с группой выше)
 * "Донецкие блогеры":http://www.facebook.com/groups/194728853999717/
-* "Донецкий сайтострой":http://vk.com/site_build
 * "Креативные мастерские":http://www.facebook.com/groups/463336053715499/
+
+h3. Паблики Вконтакте
+
+* "Донецкий сайтострой":http://vk.com/site_build
+* "Донецкий умник":http://vk.com/nerddn
 
 <a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/{{ page.url | replace: '/meeting', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
 <button class="btn">Редактировать</button></a>
