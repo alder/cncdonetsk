@@ -27,24 +27,21 @@ h2(#news). Последние встречи "(extra)архив":/meetings.html
 
 h2. Другие сообщества Донецка
 
-h3. Сильно пересекаются
-
-* "GDG Donetsk":http://donetsk.gdg.org.ua/
-* "OpenStreetMap Donetsk":https://groups.google.com/forum/#!forum/osm-donetsk
-* "DrupalCamp Donetsk":http://www.facebook.com/groups/drupal.donetsk/
-* "Donetsk QA Community":https://groups.google.com/forum/#!forum/qa-donetsk
-* "Donetsk Lambda Club":http://lambda.dn.ua/
-
-h3. Разработка, но слабо пересекаются
+h3. Разработка
 
 * "Cherdak":http://cherdak-club.blogspot.com/
+* "GDG Donetsk":http://donetsk.gdg.org.ua/
 * "Donetsk .Net User Group":http://donetsk-usergroup.blogspot.com/
+* "Donetsk Lambda Club":http://lambda.dn.ua/
+* "Donetsk QA Community":https://groups.google.com/forum/#!forum/qa-donetsk
+* "DrupalCamp Donetsk":http://www.facebook.com/groups/drupal.donetsk/
 
 h3. Не разработка, но о высоких технологиях и интернете
 
 * "Izo Lab":http://www.facebook.com/fablab.ua
 * "ITDonbass":http://www.facebook.com/groups/itdonbass/ (закрытая)
 * "ITDonbass.com":http://itdonbass.com/ (не путать с группой выше)
+* "OpenStreetMap Donetsk":https://groups.google.com/forum/#!forum/osm-donetsk
 * "Донецкие блогеры":http://www.facebook.com/groups/194728853999717/
 * "Креативные мастерские":http://www.facebook.com/groups/463336053715499/
 
@@ -52,6 +49,7 @@ h3. Паблики Вконтакте
 
 * "Донецкий сайтострой":http://vk.com/site_build
 * "Донецкий умник":http://vk.com/nerddn
+* "Сообщества программистов Донецка":http://vk.com/club44523850
 
-<a href="https://github.com/troolee/cncdonetsk/blob/gh-pages/{{ page.url | replace: '/meeting', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
+<a href="https://github.com/troolee/cncdonetsk/edit/gh-pages/{{ page.url | replace: '/meeting', '' | replace: '.html', '.textile' | replace: '/', ''}}" target="_blank">
 <button class="btn">Редактировать</button></a>
