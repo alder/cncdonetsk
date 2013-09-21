@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Шефёр поневоле"
+categories: [meeting]
+author: Artem Dudarev
+author_url: 
+---
+
+h3. Павел Митин - "Шефёр поневоле"
+
+* https://github.com/MitinPavel/cnc_sep_2013
+
+h3. Shownotes
+
+* https://trello.com/
+* http://dou.ua/calendar/3689/
+* http://donetskogram.com/
+* http://face.com
+* http://help.yandex.ru/images/loaded-image.xml
+* http://habrahabr.ru/company/JetBrains/blog/187796/
+* https://github.com/DamnWidget/anaconda
+* http://stackoverflow.com/questions/3847108/what-is-the-haskell-response-to-node-js/18438132#18438132
+* http://www.twitch.tv/event/wcs
+* http://getprismatic.com/news/home
+* https://www.toggl.com/
