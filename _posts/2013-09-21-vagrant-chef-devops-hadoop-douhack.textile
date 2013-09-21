@@ -12,6 +12,8 @@ h3. Павел Митин - "Шефёр поневоле"
 
 h3. Shownotes
 
+* http://rove.io/
+* http://evilmartians.ru/
 * https://trello.com/
 * http://dou.ua/calendar/3689/
 * http://donetskogram.com/
