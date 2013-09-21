@@ -9,6 +9,8 @@ author_url:
 h3. Павел Митин - "Шефёр поневоле"
 
 * https://github.com/MitinPavel/cnc_sep_2013
+** https://github.com/MitinPavel/pseudo_distributed_cdh4
+** https://github.com/MitinPavel/cnc_sep_2013/blob/master/history
 
 h3. Shownotes
 
