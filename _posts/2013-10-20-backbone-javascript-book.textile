@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Backbone.js Cookbook Presentation"
+categories: [meeting]
+author: Artem Dudarev
+author_url: 
+---
+
+h3. Вадим Миргород - "Backbone.js Cookbook Presentation" 
+
+* http://slid.es/dealancer/backbone
+** http://backbonejs.org/
+** http://backplug.io/
+** https://mongolab.com/
+** http://ricostacruz.com/backbone-patterns/
+
+
+h3. Shownotes
+
+* https://twitter.com/PythonWeekly
+* http://blog.kevinastone.com/getting-started-with-django-rest-framework-and-angularjs.html
+* https://gist.github.com/alekseyev/6744818
+* http://thebuild.com/presentations/pg-as-nosql-pgday-fosdem-2013.pdf
+* http://loftblog.ru/category/courses/backbonejs/
+* http://rubyrogues.com/
+* http://todomvc.com/
